@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.449" height="64.646" viewBox="0 0 208.449 64.646">
+  <defs>
+    <filter id="Rectángulo_36841" x="0" y="0" width="208.449" height="64.646" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_876379" data-name="Grupo 876379" transform="translate(-170.948 -1502)">
+    <g transform="matrix(1, 0, 0, 1, 170.95, 1502)" filter="url(#Rectángulo_36841)">
+      <rect id="Rectángulo_36841-2" data-name="Rectángulo 36841" width="46.646" height="190.449" transform="translate(199.45 6) rotate(90)" fill="#790b2f"/>
+    </g>
+  </g>
+</svg>
