@@ -563,10 +563,10 @@
           span <i>Variables técnicas para la evaluación de procesos administrativos o financieros</i>
         table.tableizer-table
           thead.th-1
-            tr.tableizer-firstrow
-              th.text-white.text-center Tipo de explotaci&oacute;n
-              th.text-white.text-center   Variable t&eacute;cnica
-              th.text-white.text-center   Unidades
+            tr.tableizer-firstrow-1
+              th.text-center Tipo de explotaci&oacute;n
+              th.text-center   Variable t&eacute;cnica
+              th.text-center   Unidades
           tbody
             tr
               <td rowspan="5 "> Procesos administrativos.</td> 
@@ -652,7 +652,7 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 3
           span <i>Ejemplo de objetivo, indicador y medio de verificación</i>
-        table.tableizer-table
+        table.tableizer-table-1
           thead.th-1
             tr.tableizer-firstrow
               th.text-white.text-center Objetivo
@@ -752,30 +752,30 @@
                 th Fórmula
             tbody
               tr
-                td.th-2 De impacto.
-                td.th-2 Contribuyen a la solución de las necesidades existentes en el área de intervención.
-                td.th-2 Porcentaje de empleados que usan equipos de protección personal.
-                td.th-2 (Número de empleados que usan EPP ÷ Número total de empleados) × 100.
+                td.th-3 De impacto.
+                td.th-3 Contribuyen a la solución de las necesidades existentes en el área de intervención.
+                td.th-3 Porcentaje de empleados que usan equipos de protección personal.
+                td.th-3 (Número de empleados que usan EPP ÷ Número total de empleados) × 100.
               tr
                 td De gestión.
                 td Miden el avance o retroceso en el logro de determinado objetivo. 
                 td Porcentaje de protocolos de limpieza y desinfección implementados en la unidad productiva. 
                 td (Número de protocolos de limpieza y desinfección implementados ÷ Número total de protocolos de limpieza y desinfección establecidos) × 100.
               tr
-                td.th-2  De producto.
-                td.th-2  Miden de manera cuantitativa los bienes o servicios provistos.
-                td.th-2  Número de toneladas de queso producidas en la unidad productiva anualmente. 
-                td.th-2  Número de toneladas de queso anualmente producidas. 
+                td.th-3  De producto.
+                td.th-3  Miden de manera cuantitativa los bienes o servicios provistos.
+                td.th-3  Número de toneladas de queso producidas en la unidad productiva anualmente. 
+                td.th-3  Número de toneladas de queso anualmente producidas. 
               tr
                 td De procesos.
                 td Mide el desarrollo de las etapas programadas dentro de las actividades del proyecto.  
                 td Porcentaje de cumplimiento de requisitos para certificación en BPA.
                 td (Número de requisitos que se cumplen ÷ Número total de requisitos de la norma) × 100.
               tr
-                td.th-2  De resultados.
-                td.th-2  Establecen si hubo cambios respecto a la situación inicial encontrada en el diagnóstico. 
-                td.th-2  Número de certificaciones obtenidas en el último año. 
-                td.th-2  Número de certificaciones actuales – Número de certificaciones de la línea base. 
+                td.th-3 De resultados.
+                td.th-3  Establecen si hubo cambios respecto a la situación inicial encontrada en el diagnóstico. 
+                td.th-3  Número de certificaciones obtenidas en el último año. 
+                td.th-3  Número de certificaciones actuales – Número de certificaciones de la línea base. 
             
     separador
 

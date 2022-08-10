@@ -18,7 +18,7 @@
         img(src='@/assets/curso/images/tema1/img_1.png'  alt='')
 
     p.mb-5 Las siguientes, son generalidades que, sobre certificación de unidades agropecuarias, se deben tener en cuenta:
-
+  
     .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-star.p-5
@@ -48,11 +48,11 @@
             img(src="@/assets/curso/images/tema1/img_5.png").mb-3
 
     p.mb-5 Para las empresas en general, las certificaciones a las que pueden aspirar son: 
-
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.mb-0.m-top.cs
     .row.aling.my-5 
       .col-lg-8(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/fig_1.svg')
-
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
     Separador
 
     #t_1_1.titulo-segundo
@@ -72,7 +72,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-10 
-        .cajon.color-custom-1.p-5
+        .cajon.color-custom-1.py-4.px-4
           .row.justify-content-center.align-items-center
             .col-lg-2
               img(src='@/assets/curso/images/tema1/ico_1.svg'  alt='')
