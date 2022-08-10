@@ -147,7 +147,7 @@
             figure
               img(src='@/assets/curso/images/tema1/img_8.png'  alt='')
 
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
+      .py-4.py-md-5(titulo="Sello Ambiental" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
             h3 Sello Ambiental
@@ -216,7 +216,7 @@
                 img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto          
               .col-md-10.py-3
                 h3.text-center.mb-3  Cuidado y protección del agua
-                p.text-center.px-2.px-md-0 Decreto 2811 de 1974 – Ley 99 de 1993 – Ley 142 de 1994 – Ley 373 de 1997 – Decreto 475 de 1998 – Decreto 1541 de 1978
+                p.text-center.px-2.px-md-0 Decreto 2811 de 1974 – Ley 99 de 1993 – Ley 142 de 1994 – Ley 373 de 1997 – Decreto 475 de 1998 – Decreto 1541 de 1978.
           .tarjeta_white-1.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
@@ -289,7 +289,7 @@
                     p ISO 14001. Sistemas de gestión medioambiental.
                   li 
                     i.fas.fa-angle-right
-                    p ISO 22000. Norma de seguridad alimentaria
+                    p ISO 22000. Norma de seguridad alimentaria.
                   li 
                     i.fas.fa-angle-right
                     p ISO 27001. Gestión para la seguridad de la información.
@@ -308,7 +308,7 @@
     #t_1_3.titulo-segundo
       .h2 1.3  Requisitos
 
-    p.mb-3 Cada uno de los procesos de certificación posee diferentes requisitos que, cuando se cumplen rigurosamente, permiten obtener el sello o la garantía correspondiente. Es así como las exigencias para una certificación en BPA (buenas prácticas agrícolas) son diferentes a los que se solicitan para Comercio Justo o Rainforest Alliance
+    p.mb-3 Cada uno de los procesos de certificación posee diferentes requisitos que, cuando se cumplen rigurosamente, permiten obtener el sello o la garantía correspondiente. Es así como las exigencias para una certificación en BPA (buenas prácticas agrícolas) son diferentes a los que se solicitan para Comercio Justo o <i>Rainforest Alliance.</i>
 
     p.mb-3 Sin embargo, existen algunos puntos comunes entre las diversas acreditaciones los cuales consisten básicamente en:
     
@@ -363,7 +363,7 @@
                   img.mx-1(src="@/assets/curso/images/tema1/ico_20.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
                   h3.text-white Certificaciones Nacionales Internacionales
-                  p.mb-1.text-white El siguiente PDF presenta las certificaciones nacionales e internacionales (obligatorias y voluntarias) de acuerdo con Analdex
+                  p.mb-1.text-white El siguiente PDF presenta las certificaciones nacionales e internacionales (obligatorias y voluntarias) de acuerdo con Analdex.
                 .col-md-auto
                   a.boton.color-custom-6(:href="obtenerLink('downloads/Anexo_1_CertificacionesNacionalesInternacionales.pdf')" target="_blank")
                     span Descargar

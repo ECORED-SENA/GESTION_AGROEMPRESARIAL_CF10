@@ -16,6 +16,11 @@
       .col-lg-6.mb-3(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_1.png'  alt='')
 
+    Separador
+
+    #t_2_1.titulo-segundo
+      .h2 2.1 Recolección de información
+
     .row.justify-content-center.align-items-center
       .col-lg-12
         .bloque-texto-g.color-custom-3.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
@@ -112,6 +117,10 @@
       .col-lg-6.mb-3(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_7.png'  alt='')
 
+    p.mb-3 A partir de la información depositada en un sistema de trazabilidad de un producto, se identifica la procedencia de la materia prima empleada en su
+
+    p.mb-0 Elaboración, el detalle de la planta donde se fabricó o se procesó, la fecha en la que tuvo lugar su fabricación, el personal que intervino en su elaboración, las novedades que se presentaron durante el proceso de manufactura, quién intervino en su almacenamiento y distribución, y en qué fecha, finalmente, llegó al consumidor.
+
     .row.justify-content-evenly.align-items-star.p-2
       .col-lg-4(data-aos="fade-right")
         img.mt-5(src='@/assets/curso/images/tema2/img_8.png')
@@ -134,7 +143,7 @@
             p Utilizar unidades unificadas. Ejemplo: hectáreas, metros, kilogramos.
           li 
             i.fas.fa-angle-right
-            p Registrar siempre el nombre de quien diligencia
+            p Registrar siempre el nombre de quien diligencia.
           li 
             i.fas.fa-angle-right
             p Recoger, principalmente, información numérica (porcentajes, cantidades).
@@ -196,7 +205,7 @@
     Separador
 
     #t_2_2.titulo-segundo
-      .h2 2.2 Software agropecuario
+      .h2 2.2 <i>Software</i> agropecuario
 
     p.mb-3 El desarrollo de las tecnologías de la información y las comunicaciones ha tenido impactos significativos en todas las industrias, incluida la agropecuaria. Los recientes avances en lo relacionado con el almacenamiento y transmisión de grandes volúmenes de datos ha sido clave para la implementación de programas y aplicaciones que facilitan las gestiones administrativas y la toma de decisiones en la agroempresa; esto favorece en gran medida los procesos de certificación.
 
@@ -260,7 +269,7 @@
             p El desarrollo eficiente de las labores administrativas.
           li 
             i.fas.fa-angle-right
-            p  El alcance de objetivos y metas
+            p  El alcance de objetivos y metas.
     .row.justify-content-evenly.align-items-star
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         p.mb-3 No obstante, siendo importante el uso de los programas de cómputo y para ofrecer facilidades para la administración de la empresa y los procesos de certificación:
@@ -300,6 +309,9 @@
             .col-lg-6.bg-color-5.px-4.py-4
               .h4.mb-0 Análisis e interpretación
           p.mb-0 Pese a contar con herramientas que facilitan la captura y el acopio de información, en muchas ocasiones los empresarios del campo se quedan cortos frente al análisis e interpretación de los resultados obtenidos, lo cual sigue siendo una limitante en muchos sistemas productivos, donde la falta de conocimiento sobre el procesamiento de los datos o la falta de herramientas para su manejo se ha constituido en una problemática que dificulta la gestión empresarial. 
+
+    p.mb-3 Se invita a conocer algunos aspectos clave del análisis de datos para las organizaciones, aplicables a la finca agropecuaria; además, se recomienda registrar en su libreta personal de apuntes, lo más destacado:
+
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-8(data-aos="fade-right") 
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--rosa")(data-aos="zoom-in-down")
@@ -369,8 +381,8 @@
           img(src='@/assets/curso/images/tema2/ico_32.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
           .tarjeta.color-tarjeta-slyder-2
             .p-4.text-ce
-              h4.text-center Microsoft Power BI
-              p.text-center Es la herramienta analítica de Microsoft y una de las más populares, debido a que ofrece visualizaciones interactivas de datos y  una integración sencilla con otras herramientas de la corporación.   
+              h4.text-center <i>Microsoft Power BI</i>
+              p.text-center Es la herramienta analítica de <i>Microsoft</i> y una de las más populares, debido a que ofrece visualizaciones interactivas de datos y  una integración sencilla con otras herramientas de la corporación.   
 
 
         .tarjeta-avatar
@@ -471,7 +483,7 @@
               td.th-2  Toneladas por hect&aacute;rea.
               td.th-2  Toneladas.
             tr
-              td.th-2   Densidad de siembra
+              td.th-2   Densidad de siembra.
               td.th-2  Plantas por hect&aacute;rea.
             tr
               td.th-2  Costos por ciclo productivo.
@@ -533,7 +545,7 @@
               td.th-2   Unidades.
             tr
               td.th-2   Litros diarios de leche.
-              td.th-2   Litros     
+              td.th-2   Litros.     
             tr
               td.th-2  Peso al sacrificio.
               td.th-2  Kilogramos.
@@ -557,7 +569,7 @@
               th.text-white.text-center   Unidades
           tbody
             tr
-              <td rowspan="5 "> Procesos administrativos..</td> 
+              <td rowspan="5 "> Procesos administrativos.</td> 
               td Número total de empleados.
               td Unidades.
             tr
@@ -601,7 +613,7 @@
             | Fijar quién será el responsable de la sistematización.
           li 
             i.fas.fa-angle-right
-            | Establecer qué métodos de análisis se emplearán
+            | Establecer qué métodos de análisis se emplearán.
           li 
             i.fas.fa-angle-right
             | Definir cómo se presentarán los resultados.
@@ -669,7 +681,7 @@
                 img.mt-3(src='@/assets/curso/images/tema2/ico_24.svg' alt='imagen relacionada' style='width:80px').mx-auto        
               .col-md-10.py-3
                 h3.text-center Objetividad
-                p.text-center No puede tener sesgos personales. Debe ser totalmente independiente
+                p.text-center No puede tener sesgos personales. Debe ser totalmente independiente.
           .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-5.mb-4.mb-md-2.p-0
@@ -740,7 +752,7 @@
                 th Fórmula
             tbody
               tr
-                td.th-2 De impacto
+                td.th-2 De impacto.
                 td.th-2 Contribuyen a la solución de las necesidades existentes en el área de intervención.
                 td.th-2 Porcentaje de empleados que usan equipos de protección personal.
                 td.th-2 (Número de empleados que usan EPP ÷ Número total de empleados) × 100.
@@ -784,6 +796,9 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
+
+    p.mb-3 Sobre el diagnóstico de la organización, se debe tener en cuenta:
+    
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-8(data-aos="fade-right") 
@@ -839,19 +854,19 @@ export default {
       {
         titulo: 'Agro Win',
         texto:
-          'Es un software que se especializa en el manejo de cultivos perennes y transitorios. Facilita el registro de costos directos e indirectos, permitiendo la obtención de informes de costos totales de producción, entre otras funciones. Actualmente este es el más usado en el sector cafetero, aunque es de aplicación variada. ',
+          'Es un <i>software</i> que se especializa en el manejo de cultivos perennes y transitorios. Facilita el registro de costos directos e indirectos, permitiendo la obtención de informes de costos totales de producción, entre otras funciones. Actualmente este es el más usado en el sector cafetero, aunque es de aplicación variada. ',
         imagen: require('@/assets/curso/images/tema2/img_18.svg'),
       },
       {
         titulo: 'El Gran Palmero',
         texto:
-          'Software especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.',
+          '<i>Software</i> especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.',
         imagen: require('@/assets/curso/images/tema2/img_19.svg'),
       },
       {
         titulo: 'Agri',
         texto:
-          'Es un software para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.',
+          'Es un <i>software</i> para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.',
         imagen: require('@/assets/curso/images/tema2/img_20.svg'),
       },
     ],

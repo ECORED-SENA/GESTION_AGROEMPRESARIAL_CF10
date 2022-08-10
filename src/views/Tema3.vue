@@ -70,7 +70,6 @@
       .col-lg-4.mb-3(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema3/img_3.png'  alt='')
       .col-lg-8(data-aos="fade")
-        p.mb-3 La justificación debe responder básicamente a las siguientes preguntas:
         p.mb-3 Estos son algunos elementos clave en la generación y formulación de objetivos para el proceso de certificación de las organizaciones:
           ul.lista-ul--color
             li 
@@ -132,7 +131,7 @@
                   | Áreas e instalaciones sanitarias.
                 li 
                   i.fas.fa-angle-right
-                  | Áreas de almacenamiento de insumos agrícolas
+                  | Áreas de almacenamiento de insumos agrícolas.
                 li 
                   i.fas.fa-angle-right
                   |  Área de dosificación y preparación de mezclas. 
@@ -169,7 +168,7 @@
                   |  Manejo de residuos sólidos y líquidos. 
                 li 
                   i.fas.fa-angle-right
-                  |  Manejo de protección de suelos
+                  |  Manejo de protección de suelos.
                 li 
                   i.fas.fa-angle-right
                   | Protección de insectos benéficos y polinizadores. 
@@ -220,6 +219,7 @@
           .col-lg-12
             .jumbotron-1.p-3  Nota. Tomada del Instituto Colombiano Agropecuario - ICA (2020).
 
+    p.mb-3 Ahora, en todo desarrollo de un programa de certificación se debe tener en cuenta:
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-auto.mb-3.mb-lg-0
@@ -301,7 +301,7 @@
               td Físicos.
             tr.th-2 
               td  Sistema de ventilación.
-              td Físicos
+              td Físicos.
             tr.th-2 
               td Mano de obra.
               td Humanos.
@@ -416,7 +416,7 @@
 
             p(numero="7" titulo="Procedimiento detallado") Es la esencia del protocolo y consiste en describir lo más detalladamente posible los procedimientos que se deben llevar a cabo para desarrollar la tarea o la actividad a la que obedece el protocolo. En este punto es posible apoyarse con infografías, esquemas, fotografías o cualquier otra ayuda audiovisual que facilite al lector la comprensión de las instrucciones. 
             
-            p(numero="8" titulo="Bibliografía") De ser posible, incluir referencias bibliográficas que den al lector la posibilidad de indagar más sobre el tema  
+            p(numero="8" titulo="Bibliografía") De ser posible, incluir referencias bibliográficas que den al lector la posibilidad de indagar más sobre el tema.  
 
             p(numero="9" titulo="Anexos") Se pueden agregar elementos que faciliten la comprensión de las instrucciones como diagramas de flujo, mapas conceptuales, ejemplos o pósteres. 
 
