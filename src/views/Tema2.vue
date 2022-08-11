@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-6(data-aos="fade") 
         p.mb-3 El primer paso para la implementación de los procesos de certificación de unidades productivas es realizar un análisis exhaustivo de cada uno de sus componentes, identificando sus fortalezas y debilidades, y estableciendo los aspectos que requieren especial atención, lo cual es posible a través de un diagnóstico.        
-        .jumbotron.p-4         
+        .jumbotron-7.p-4         
           p.mb-0 En esa evaluación previa se determina el grado de avance de la empresa agropecuaria en relación con los estándares que se desean implementar, lo que dará como resultado un plan de acción. 
 
       .col-lg-6.mb-3(data-aos="fade-right") 
@@ -121,7 +121,7 @@
 
     p.mb-0 Elaboración, el detalle de la planta donde se fabricó o se procesó, la fecha en la que tuvo lugar su fabricación, el personal que intervino en su elaboración, las novedades que se presentaron durante el proceso de manufactura, quién intervino en su almacenamiento y distribución, y en qué fecha, finalmente, llegó al consumidor.
 
-    .row.justify-content-evenly.align-items-star.p-2
+    .row.justify-content-center.align-items-center.p-2
       .col-lg-4(data-aos="fade-right")
         img.mt-5(src='@/assets/curso/images/tema2/img_8.png')
       .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-left")
@@ -154,7 +154,7 @@
             i.fas.fa-angle-right
             p Utilizar formatos cortos, fáciles de diligenciar. 
 
-    .row.justify-content-center.align-items-star.mb-5
+    .row.justify-content-center.align-items-star.m-top.mb-5
       .col-lg-12(data-aos="fade") 
         .cajon.color-custom.p-4         
           p.mb-0 En el desarrollo de las actividades de certificación, el manejo de registros es fundamental para identificar aspectos por mejorar y establecer las acciones necesarias para superar estas situaciones. Debido a que la certificación es cíclica y requiere de procesos de mejora continua, los registros se convierten en una excelente herramienta para cumplir con este objetivo.
@@ -304,7 +304,7 @@
       .col-lg-6(data-aos="fade") 
         p.mb-3 Las tecnologías disponibles hoy día, en lo relacionado con la captura y transmisión de grandes volúmenes de información, han facilitado algunos procesos que anteriormente demandaban bastante tiempo y recursos para las empresas. Desde siempre, la gestión de la información ha sido una necesidad prioritaria en las labores administrativas organizacionales, independientemente de su naturaleza o su objeto social.     
         p.mb-3 La importancia de la gestión de información radica en que la toma de decisiones, la identificación de oportunidades de mejora y la búsqueda de alternativas de solución a las problemáticas en la operación, requieren de información confiable y verificable.        
-        .jumbotron.p-4    
+        .jumbotron-8.p-4    
           .row.mb-5.ps-2(data-aos="zoom-in-down")
             .col-lg-6.bg-color-5.px-4.py-4
               .h4.mb-0 Análisis e interpretación
@@ -738,7 +738,7 @@
         img(src='@/assets/curso/images/tema2/img_31.png')
       
     .row.align-items-center.justify-content-center.p-4
-      .col-lg-8 
+      .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 4
           span <i>Tipos de indicadores</i>

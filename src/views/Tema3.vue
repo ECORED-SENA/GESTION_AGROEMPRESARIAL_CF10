@@ -426,7 +426,7 @@
         .col-lg-9.bg-color-9.px-2.py-4
           .h4.mb-0 Tipos de protocolos
         p.mb-3 Los tipos de protocolos dependen básicamente del propósito que tengan y del público al cual se dirigen. Existen protocolos muy básicos que, únicamente, indican la forma en la que se debe realizar cierta tarea o procedimiento, pero no son de obligatorio cumplimiento.
-        .jumbotron.p-4
+        .jumbotron-5.p-4
           p.mb-0 Estos van dirigidos a todo tipo de personas y se utilizan principalmente en espacios abiertos al público para compartir cierto tipo de indicaciones.       
        
       .col-lg-8.mb-3(data-aos="fade-right") 
@@ -450,11 +450,10 @@
           span <i>Ejemplo de protocolo especializado</i>
         img.mb-3(src='@/assets/curso/images/tema3/fig_4.svg'  alt='')(data-aos="zoom-in-right")
 
-        figcaption Nota. Tomada de www.docplayer.es
 
     .row.align-items-center.justify-content-center.p-4
       .col-lg-12
-        .cajon.color-custom.p-3
+        .cajon.color-custom-5.p-3
           p.mb-0 Estos protocolos son mucho más específicos en cuanto a la forma como describen las instrucciones y al lenguaje que emplean para dirigirse al personal. Sus contenidos son más extensos y su implementación al interior de la unidad productiva es de estricto cumplimiento para conseguir el aseguramiento de la calidad.
 
     separador
@@ -488,12 +487,12 @@
 
     .row.align-items-center.justify-content-center.p-4
       .col-lg-10
-        .cajon.color-custom.p-3
+        .cajon.color-custom-5.p-4
           p.mb-0 Debido a que el aseguramiento de la calidad es un tema que abarca muchos aspectos y áreas temáticas de la empresa pecuaria, el trabajo en equipo es necesario para desarrollar una labor integral al momento de seguir los estándares seleccionados. 
 
     p.mb-3 Para la conformación de los equipos de trabajo es necesario tener en cuenta los siguientes aspectos:
 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-3.m-top.mb-0.cs
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.m-top.mb-0.cs
 
     .row.align-items-center.justify-content-center.p-4.mb-5
       .col-lg-12
@@ -604,7 +603,7 @@
                 p.text-center Los resultados esperados con cada una de las actividades.
     .row.justify-content-center.align-items-center.my-3
       .col-lg-10
-        .jumbotron.p-4    
+        .jumbotron-6.p-4    
             .row.mb-2.ps-2(data-aos="zoom-in-down")
               .col-lg-5.bg-color-10.px-2.py-2
                 .h4.mb-0 Éxito de la implementación

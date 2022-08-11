@@ -11,7 +11,7 @@
 
     .row.justify-content-center.align-items-star.mb-3
       .col-lg-5(data-aos="fade")     
-        .cajon.color-custom.p-4         
+        .cajon.color-custom-5.p-4         
           p.mb-0 Igualmente, se basa en la búsqueda de una garantía que le indique al consumidor que está frente a un producto, que no va a afectar su salud, que es elaborado de manera sostenible, que su producción no deteriora las condiciones del medio ambiente y que los procesos de producción cumplen con los más altos estándares nacionales e internacionales.
 
       .col-lg-7.mb-3(data-aos="fade-right") 
@@ -64,7 +64,7 @@
           .col-lg-6(data-aos="fade-left")
             p.mb-3 En Colombia la actividad agropecuaria es regulada principalmente por el Ministerio de Agricultura y Desarrollo Rural, que se encarga de coordinar y evaluar las políticas públicas agropecuarias incluyentes que promuevan el desarrollo integral del sector, y por el Instituto Colombiano Agropecuario - ICA, el cual se enfoca en la prevención, vigilancia y control de los riesgos sanitarios, biológicos y químicos para las especies animales y vegetales que se cultivan y producen en el territorio nacional.
             
-            .jumbotron.p-4
+            .jumbotron-9.p-4
               p.mb-3 En lo relacionado con la normativa que enmarca los procesos de certificación de unidades productivas agropecuarias, se tiene que el principal referente es el Instituto Colombiano Agropecuario (ICA), porque la certificación de las explotaciones rurales tiene un importante componente sanitario.
 
           .col-lg-6.mb-3(data-aos="fade-right") 
@@ -72,7 +72,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
       .col-lg-10 
-        .cajon.color-custom-1.py-4.px-4
+        .cajon.color-custom-6.py-4.px-4
           .row.justify-content-center.align-items-center
             .col-lg-2
               img(src='@/assets/curso/images/tema1/ico_1.svg'  alt='')
@@ -186,10 +186,10 @@
       .col-lg-6(data-aos="fade")
         p.mb-3 Además de las normas que regulan los aspectos de certificación de las unidades productivas agropecuarias, también tienen, como requisito, el cumplimiento de todos y cada uno de los requerimientos legales según el tipo de explotación.
         
-        .cajon.color-custom.p-4   
+        .cajon.color-custom-5.p-4   
           p.mb-3 En este sentido, cada predio, planta de producción o instalación, así como los procesos relacionados con la contratación del personal, la disposición de residuos o los vertimientos líquidos, entre otros aspectos, debe cumplir con unos mínimos legales para su funcionamiento.
 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.mb-0.cs
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.m-top.mb-0.cs
     .row.justify-content-center.align-items-center.mt-3
       .col-lg-3.mb-0(data-aos="fade-right")
         p.mb-3 Algunos de los temas normativos que se deben tener en cuenta para la implementación de procesos productivos certificados son los siguientes: 
