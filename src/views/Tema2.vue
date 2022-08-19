@@ -253,7 +253,7 @@
                 p.text-center Controlar las labores culturales.  
     .row.justify-content-evenly.align-items-star
       .col-lg-6(data-aos="fade-right")
-        img.mt-5(src='@/assets/curso/images/tema2/img_13.png')
+        img.mt-5(src='@/assets/curso/images/tema2/img_13.png').mb-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
 
         p.mb-3 La disponibilidad de información precisa y detallada sobre el funcionamiento de la empresa agropecuaria, sus indicadores, productividad, costos de producción y gestión de procesos, entre otros temas, es fundamental para:
@@ -287,7 +287,7 @@
             i.fas.fa-angle-right
             p   En buena parte del territorio nacional, hay grandes dificultades de conectividad y acceso al fluido eléctrico, lo que genera dificultades de acceso y comunicación deficiente. 
       .col-lg-6(data-aos="fade-right")
-        img.mt-5(src='@/assets/curso/images/tema2/img_14.png')
+        img.mt-5(src='@/assets/curso/images/tema2/img_14.png').mb-3
       
     p.mb-3 Ahora, se presentan algunos de los programas y aplicativos tecnológicos diseñados para el agro que en Colombia, pese a las dificultades e inconvenientes de infraestructura, son usados en explotaciones con un alto componente empresarial: 
 
@@ -455,100 +455,101 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 1
           span <i>Principales variables técnicas empleadas en sistemas productivos</i>
-        table.tableizer-table
-          thead.th-1
-            tr.tableizer-firstrow
-              th.text-white.text-center Tipo de explotaci&oacute;n
-              th.text-white.text-center   Variable t&eacute;cnica
-              th.text-white.text-center   Unidades
-          tbody
-            tr
-              <td rowspan="5 "> Cultivos perennes.</td> 
-              td Toneladas por hect&aacute;rea.
-              td Toneladas.
-            tr
-              td &Aacute;rea sembrada.
-              td Hect&aacute;reas.
-            tr
-              td N&uacute;mero de &aacute;rboles.
-              td Unidades.
-            tr
-              td D&iacute;as a cosecha.
-              td D&iacute;as.
-            tr
-              td Densidad.
-              td &Aacute;rboles por hect&aacute;rea.
-            tr.th-2 
-              <td rowspan="3 "> Cultivos de ciclo corto.</td>
-              td.th-2  Toneladas por hect&aacute;rea.
-              td.th-2  Toneladas.
-            tr
-              td.th-2   Densidad de siembra.
-              td.th-2  Plantas por hect&aacute;rea.
-            tr
-              td.th-2  Costos por ciclo productivo.
-              td.th-2  Pesos.   
-            tr
-              <td rowspan="5"> Explotaciones av&iacute;colas.</td> 
-              td Longitud del tarso.
-              td Cent&iacute;metros.
-            tr
-              td N&uacute;mero diario de huevos.
-              td Unidades.     
-            tr
-              td Densidad.
-              td Aves por metro cuadrado.         
-            tr
-              td Consumo de alimento.
-              td Kilogramos d&iacute;a.
-            tr
-              td Peso al sacrificio.
-              td Kilogramos.  
-            tr.th-2 
-              <td rowspan="5"> Explotaciones bovinas.</td> 
-              td.th-2   N&uacute;mero de hembras.
-              td.th-2  Unidades.
-            tr
-              td.th-2  Nacidos vivos.
-              td.th-2  Unidades.     
-            tr
-              td.th-2  Vacas pre&ntilde;adas.
-              td.th-2  Unidades.    
-            tr
-              td.th-2  Peso al sacrificio.
-              td.th-2  Kilogramos.          
-            tr
-              td.th-2  Litros diarios de leche.
-              td.th-2   Litros.        
-            tr
-              <td rowspan="6"> Explotaciones porcinas.</td> 
-              td Nacidos vivos.
-              td Unidades.
-            tr
-              td Edad al destete.
-              td D&iacute;as.   
-            tr
-              td Peso al nacer.
-              td Kilogramos.    
-            tr
-              td Edad al primer servicio.
-              td D&iacute;as.    
-            tr
-              td Consumo diario de alimentos.
-              td Kilogramos.
-            tr
-              td Peso al sacrificio.
-              td Kilogramos. 
-            tr.th-2 
-              <td rowspan="3">Explotaciones caprinas.</td>
-              td.th-2  N&uacute;mero de cr&iacute;as.
-              td.th-2   Unidades.
-            tr
-              td.th-2   Litros diarios de leche.
-              td.th-2   Litros.     
-            tr
-              td.th-2  Peso al sacrificio.
-              td.th-2  Kilogramos.
+        .tabla-a
+          table.tableizer-table
+            thead.th-1
+              tr.tableizer-firstrow
+                th.text-white.text-center.th-1 Tipo de explotaci&oacute;n
+                th.text-white.text-center.th-1   Variable t&eacute;cnica
+                th.text-white.text-center.th-1   Unidades
+            tbody
+              tr
+                <td rowspan="5 "> Cultivos perennes.</td> 
+                td Toneladas por hect&aacute;rea.
+                td Toneladas.
+              tr
+                td &Aacute;rea sembrada.
+                td Hect&aacute;reas.
+              tr
+                td N&uacute;mero de &aacute;rboles.
+                td Unidades.
+              tr
+                td D&iacute;as a cosecha.
+                td D&iacute;as.
+              tr
+                td Densidad.
+                td &Aacute;rboles por hect&aacute;rea.
+              tr.th-2 
+                <td rowspan="3 "> Cultivos de ciclo corto.</td>
+                td.th-2  Toneladas por hect&aacute;rea.
+                td.th-2  Toneladas.
+              tr
+                td.th-2   Densidad de siembra.
+                td.th-2  Plantas por hect&aacute;rea.
+              tr
+                td.th-2  Costos por ciclo productivo.
+                td.th-2  Pesos.   
+              tr
+                <td rowspan="5"> Explotaciones av&iacute;colas.</td> 
+                td Longitud del tarso.
+                td Cent&iacute;metros.
+              tr
+                td N&uacute;mero diario de huevos.
+                td Unidades.     
+              tr
+                td Densidad.
+                td Aves por metro cuadrado.         
+              tr
+                td Consumo de alimento.
+                td Kilogramos d&iacute;a.
+              tr
+                td Peso al sacrificio.
+                td Kilogramos.  
+              tr.th-2 
+                <td rowspan="5"> Explotaciones bovinas.</td> 
+                td.th-2   N&uacute;mero de hembras.
+                td.th-2  Unidades.
+              tr
+                td.th-2  Nacidos vivos.
+                td.th-2  Unidades.     
+              tr
+                td.th-2  Vacas pre&ntilde;adas.
+                td.th-2  Unidades.    
+              tr
+                td.th-2  Peso al sacrificio.
+                td.th-2  Kilogramos.          
+              tr
+                td.th-2  Litros diarios de leche.
+                td.th-2   Litros.        
+              tr
+                <td rowspan="6"> Explotaciones porcinas.</td> 
+                td Nacidos vivos.
+                td Unidades.
+              tr
+                td Edad al destete.
+                td D&iacute;as.   
+              tr
+                td Peso al nacer.
+                td Kilogramos.    
+              tr
+                td Edad al primer servicio.
+                td D&iacute;as.    
+              tr
+                td Consumo diario de alimentos.
+                td Kilogramos.
+              tr
+                td Peso al sacrificio.
+                td Kilogramos. 
+              tr.th-2 
+                <td rowspan="3">Explotaciones caprinas.</td>
+                td.th-2  N&uacute;mero de cr&iacute;as.
+                td.th-2   Unidades.
+              tr
+                td.th-2   Litros diarios de leche.
+                td.th-2   Litros.     
+              tr
+                td.th-2  Peso al sacrificio.
+                td.th-2  Kilogramos.
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-10(data-aos="fade")   
         .cajon.color-custom.p-4         
@@ -561,39 +562,40 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 2
           span <i>Variables técnicas para la evaluación de procesos administrativos o financieros</i>
-        table.tableizer-table
-          thead.th-1
-            tr.tableizer-firstrow-1
-              th.text-center Tipo de explotaci&oacute;n
-              th.text-center   Variable t&eacute;cnica
-              th.text-center   Unidades
-          tbody
-            tr
-              <td rowspan="5 "> Procesos administrativos.</td> 
-              td Número total de empleados.
-              td Unidades.
-            tr
-              td Número de puestos de trabajo.
-              td Unidades.
-            tr
-              td Número de accidentes de trabajo en el año.
-              td Unidades.
-            tr
-              td Porcentaje de trabajadores capacitados en BPM.
-              td Porcentaje.
-            tr
-              td Total, incapacidades anuales.
-              td Unidades.
-            tr.th-2 
-              <td rowspan="3 "> Procesos financieros.</td>
-              td.th-2  Ventas totales mensuales.
-              td.th-2  Millones de pesos.
-            tr
-              td.th-2  Egresos mensuales.
-              td.th-2  Millones de pesos.
-            tr
-              td.th-2  Utilidades anuales.
-              td.th-2  Millones de pesos.
+        .tabla-a
+          table.tableizer-table
+            thead.th-1
+              tr.tableizer-firstrow-1
+                th.text-center Tipo de explotaci&oacute;n
+                th.text-center   Variable t&eacute;cnica
+                th.text-center   Unidades
+            tbody
+              tr
+                <td rowspan="5 "> Procesos administrativos.</td> 
+                td Número total de empleados.
+                td Unidades.
+              tr
+                td Número de puestos de trabajo.
+                td Unidades.
+              tr
+                td Número de accidentes de trabajo en el año.
+                td Unidades.
+              tr
+                td Porcentaje de trabajadores capacitados en BPM.
+                td Porcentaje.
+              tr
+                td Total, incapacidades anuales.
+                td Unidades.
+              tr.th-2 
+                <td rowspan="3 "> Procesos financieros.</td>
+                td.th-2  Ventas totales mensuales.
+                td.th-2  Millones de pesos.
+              tr
+                td.th-2  Egresos mensuales.
+                td.th-2  Millones de pesos.
+              tr
+                td.th-2  Utilidades anuales.
+                td.th-2  Millones de pesos.
 
     .row.justify-content-evenly.align-items-star
       .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-left")
@@ -652,16 +654,17 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 3
           span <i>Ejemplo de objetivo, indicador y medio de verificación</i>
-        table.tableizer-table-1
-          thead.th-1
-            tr.tableizer-firstrow
-              th.text-white.text-center Objetivo
-              th.text-white.text-center Indicador
-              th.text-white.text-center  Medio de verificación
-            tr
-              td.text-center.th-3  Implementación de protocolos y procedimientos para la obtención del certificado BPA para el cultivo de aguacate Hass.
-              td.text-center.th-3  Requisitos anunciados por el ICA en la Resolución 082394 de 2020 cumplidos.#[BR] ÷ #[BR]Requisitos anunciados por el ICA en la Resolución 082394 de 2020. 
-              td.text-center.th-3 Lista de chequeo de cumplimiento de requisitos. 
+        .tabla-a
+          table.tableizer-table-1
+            thead.th-1
+              tr.tableizer-firstrow
+                th.text-white.text-center.th-1 Objetivo
+                th.text-white.text-center.th-1 Indicador
+                th.text-white.text-center.th-1  Medio de verificación
+              tr
+                td.text-center.th-3  Implementación de protocolos y procedimientos para la obtención del certificado BPA para el cultivo de aguacate Hass.
+                td.text-center.th-3  Requisitos anunciados por el ICA en la Resolución 082394 de 2020 cumplidos.#[BR] ÷ #[BR]Requisitos anunciados por el ICA en la Resolución 082394 de 2020. 
+                td.text-center.th-3 Lista de chequeo de cumplimiento de requisitos. 
             
     .row.align-items-center.justify-content-center.p-4
       .col-lg-12

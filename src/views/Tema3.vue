@@ -288,52 +288,53 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 7
           span <i>Matriz de identificación de recursos</i>
-        table.tableizer-table
-          thead.th-1
-            tr.tableizer-firstrow
-              th.text-white.text-center Actividad
-              th.text-white.text-center   Recurso
-              th.text-white.text-center   Tipo de recurso
-          tbody
-            tr.th-2 
-              <td rowspan="3 "> Adecuar sistema de ventilación e iluminación en área de almacenamiento. </td> 
-              td Luminarias.
-              td Físicos.
-            tr.th-2 
-              td  Sistema de ventilación.
-              td Físicos.
-            tr.th-2 
-              td Mano de obra.
-              td Humanos.
-  
-            tr
-              <td rowspan="2 "> Señalizar la bodega de almacenamiento.</td>
-              td Kit señalización.
-              td  Físicos.
-            tr
-              td Mano de obra.
-              td  Humanos.
-  
-            tr.th-2 
-              <td rowspan="6"> Reparar los agrietamientos del piso de la bodega y adecuar la superficie con pintura epóxica. </td> 
-              td Cemento.
-              td Físicos.
-            tr.th-2 
-              td Arena.
-              td Físicos.   
-            tr.th-2 
-              td Pintura epóxica.
-              td Físicos.         
-            tr.th-2 
-              td Herramientas.
-              td Físicos.
-            tr.th-2 
-              td Brochas.
-              td Físicos.
-            tr.th-2 
-              td Mano de obra.
-              td Humanos.
-           
+        .tabla-a
+          table.tableizer-table
+            thead.th-1
+              tr.tableizer-firstrow
+                th.text-white.text-center Actividad
+                th.text-white.text-center   Recurso
+                th.text-white.text-center   Tipo de recurso
+            tbody
+              tr.th-2 
+                <td rowspan="3 "> Adecuar sistema de ventilación e iluminación en área de almacenamiento. </td> 
+                td Luminarias.
+                td Físicos.
+              tr.th-2 
+                td  Sistema de ventilación.
+                td Físicos.
+              tr.th-2 
+                td Mano de obra.
+                td Humanos.
+    
+              tr
+                <td rowspan="2 "> Señalizar la bodega de almacenamiento.</td>
+                td Kit señalización.
+                td  Físicos.
+              tr
+                td Mano de obra.
+                td  Humanos.
+    
+              tr.th-2 
+                <td rowspan="6"> Reparar los agrietamientos del piso de la bodega y adecuar la superficie con pintura epóxica. </td> 
+                td Cemento.
+                td Físicos.
+              tr.th-2 
+                td Arena.
+                td Físicos.   
+              tr.th-2 
+                td Pintura epóxica.
+                td Físicos.         
+              tr.th-2 
+                td Herramientas.
+                td Físicos.
+              tr.th-2 
+                td Brochas.
+                td Físicos.
+              tr.th-2 
+                td Mano de obra.
+                td Humanos.
+            
 
     p.mb-3 Con la elaboración de la matriz para la identificación de los recursos necesarios con miras a la implementación del programa de certificación, es posible determinar el tipo de recursos que se requieren y el uso que finalmente se hará de ellos. 
     p.mb-3 Dentro de los tipos de recursos que se encuentran en una empresa, generalmente están los siguientes:
