@@ -10,7 +10,7 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 PREGUNTAS CON MÚLTIPLE RESPUESTA
+          h2 Planeación de la certificación
         p.mb-4 Reforzar saberes y habilidades relacionados con procesos de certificación, con base en los contenidos del componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

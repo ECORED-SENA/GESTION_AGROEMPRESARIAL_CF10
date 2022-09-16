@@ -10,23 +10,23 @@
     p.mb-3 Para el desarrollo de cualquier actividad, al interior de la unidad productiva, es necesario adelantar un ejercicio minucioso de planeación el cual abarca la definición de objetivos, metas, indicadores, medios de verificación, estrategias y metodologías, elementos que, de alguna u otra forma, deben aportar a la consolidación de los objetivos estratégicos de la empresa agropecuaria.      
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5(data-aos="fade") 
+      .col-lg-5(data-aos="fade-right") 
         .cajon.color-custom.p-4
           p.mb-3 Por lo tanto, para conseguir la certificación de la unidad productiva, igualmente se debe realizar un ejercicio de planificación el cual se registra a través de lo que se conoce como un programa de certificación, el cual consiste en la presentación ordenada de las actividades, procesos y procedimientos que se realizarán para conseguir el correspondiente sello o garantía.      
        
-      .col-lg-7.mb-3(data-aos="fade-right") 
+      .col-lg-7.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema3/img_1.png'  alt='')
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
     .row.justify-content-center.mb-5
-      .col-lg-6.col-auto.mb-3.mb-lg-0
+      .col-lg-6.col-auto.mb-3.mb-lg-0(data-aos="fade-right") 
         .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema3/tj_1.png", alt= "")
+          img(src="@/assets/curso/images/tema3/tj_1_1.png", alt= "")
           .tarjeta-up__content.bg-1
             h4  Programa de certificación
             p El diseño del programa de certificación depende, entre otros aspectos, del tamaño de la empresa agropecuaria, del tipo de certificación que se desea obtener, de los recursos disponibles y del objetivo de la certificación.
-      .col-lg-6.col-auto.mb-3.mb-lg-0
+      .col-lg-6.col-auto.mb-3.mb-lg-0(data-aos="fade-left")
         .tarjeta.tarjeta-up
-          img(src="@/assets/curso/images/tema3/tj_2.png", alt= "")
+          img(src="@/assets/curso/images/tema3/tj_2_1.png", alt= "")
           .tarjeta-up__content.bg-2
             h4 Planeación de la certificación
             p  Existen, y es imprescindible tenerlos en cuenta, algunos elementos comunes que pueden contribuir a hacer un buen ejercicio de planeación que procure un uso eficiente de los recursos y el cumplimiento de los estándares y exigencias que apliquen según sea el caso.
@@ -37,12 +37,12 @@
       .h2 3.1 Justificación
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5(data-aos="fade")
+      .col-lg-5(data-aos="fade-right") 
         p.mb-3 Es importante señalar dentro del programa de certificación las razones por las cuales es necesario, para la empresa agropecuaria, desarrollar esta iniciativa y qué se espera conseguir con su implementación. Cada una de estas razones debe estar articulada con los objetivos estratégicos de la empresa, con su misión y su visión por lo que es necesario que el equipo de trabajo observe con detenimiento estos elementos antes de iniciar con la construcción del programa.
         p.mb-3 La justificación debe responder básicamente a las siguientes preguntas:
         .col-lg-5.bg-color-7.px-5.py-3
           .h4.mb-0 Justificación
-        .jumbotron-3.p-4
+        .jumbotron-3.p-4.mx-2.mt-0
           ul.lista-ul--color
             li 
               i.fas.fa-angle-right
@@ -56,7 +56,7 @@
             li 
               i.fas.fa-angle-right
               | ¿Cómo puede la certificación impactar los objetivos de la empresa?
-      .col-lg-7.mb-3(data-aos="fade-right") 
+      .col-lg-7.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema3/img_2.png'  alt='')
     
     separador
@@ -69,7 +69,7 @@
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-4.mb-3(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema3/img_3.png'  alt='')
-      .col-lg-8(data-aos="fade")
+      .col-lg-8(data-aos="fade-left")
         p.mb-3 Estos son algunos elementos clave en la generación y formulación de objetivos para el proceso de certificación de las organizaciones:
           ul.lista-ul--color
             li 
@@ -98,7 +98,46 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Figura 4.
           span <i>Objetivo general y objetivos específicos en un programa de certificación</i>
-        img(src='@/assets/curso/images/tema3/fig_1.svg'  alt='')(data-aos="zoom-in-right")
+
+    .row.justify-content-center.align-items-center
+      .col-lg-3.lg-0
+        .jumbotron-10.p-5
+          .row.align-items-center.justify-content-center
+            .col-5.col-lg-4
+              img.mb-5(src='@/assets/curso/images/tema3/ico_9.svg'  alt='')
+            .col-lg-8
+              h5.mb-5 Objetivo específico 01
+            .row.align-items-center.justify-content-center
+              p.mb-5 Realizar un diagnóstico general de la finca La Fortuna.
+      .col-lg-3.lg-0
+        .jumbotron-11.p-5
+          .row.align-items-center.justify-content-center
+            .col-5.col-lg-4
+              img.mb-5(src='@/assets/curso/images/tema3/ico_10.svg'  alt='')
+            .col-lg-8
+              h5.text-white.mb-5 Objetivo específico 01
+            .row.align-items-center.justify-content-center
+              p.text-white.mb-5 Realizar un diagnóstico general de la finca La Fortuna.
+      .col-lg-3.lg-0
+        .jumbotron-12.p-5
+          .row.align-items-center.justify-content-center
+            .col-5.col-lg-4
+              img.mb-5(src='@/assets/curso/images/tema3/ico_11.svg'  alt='')
+            .col-lg-8
+              h5.text-white.mb-5 Objetivo específico 02
+            .row.align-items-center.justify-content-center
+              p.text-white.mb-0 Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
+      .col-lg-3.lg-0
+        .jumbotron-13.p-5
+          .row.align-items-center.justify-content-center
+            .col-5.col-lg-4
+              img.mb-4(src='@/assets/curso/images/tema3/ico_12.svg'  alt='')
+            .col-lg-7
+              h5.text-white.mb-5 Objetivo específico 03
+            .row.align-items-center.justify-content-center
+              p.text-white.mb-0 Fortalecer las capacidades del personal vinculado a la finca La Fortuna en lo relacionado con los principios de las BPA.
+
+
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
     separador
@@ -107,121 +146,122 @@
       .h2 3.3 Requerimientos técnicos
 
     .row.justify-content-center.align-items-star.mb-5
-      .col-lg-6(data-aos="fade")
+      .col-lg-6(data-aos="fade-right") 
         p.mb-3 Los requerimientos técnicos para el proceso de certificación se definen de acuerdo con el estándar seleccionado y/o con el tipo de sello que se desee obtener. Por lo general, los requerimientos técnicos están definidos a modo de listas de chequeo en las cuales es posible observar el cumplimiento o incumplimiento de las exigencias según sea el caso.     
         .jumbotron-4.p-4
           pp.mb-3 En el caso de Colombia, los requerimientos técnicos para la obtención de la certificación en Buenas Prácticas Agrícolas - BPA están definidos claramente en la Resolución 082394 de 2020, donde se anexa la lista de chequeo de los parámetros que se evalúan en el proceso de auditoría. 
-      .col-lg-6.mb-3(data-aos="fade-right") 
+      .col-lg-6.mb-3(data-aos="fade-left")
         img(src='@/assets/curso/images/tema3/img_4.png'  alt='')
 
     p.mb-3 En esa norma, específicamente, se evalúan los siguientes aspectos:
 
-    .row.justify-content-center.align-items-star.my-5
+    .row.justify-content-end.align-items-star.my-5(data-aos="zoom-in-down")
       .col-lg-10(data-aos="fade")
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 5
           span <i>Requerimientos técnicos para certificación en BPA</i>
         .tabla-a.color-acento-contenido.mb-5.bt
-          tr
-            th Áreas e instalaciones.
-            td 
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Áreas e instalaciones sanitarias.
-                li 
-                  i.fas.fa-angle-right
-                  | Áreas de almacenamiento de insumos agrícolas.
-                li 
-                  i.fas.fa-angle-right
-                  |  Área de dosificación y preparación de mezclas. 
-                li 
-                  i.fas.fa-angle-right
-                  | Área de almacenamiento de combustibles
-                li 
-                  i.fas.fa-angle-right
-                  | Área de acopio transitorio de productos cosechados.
-                li 
-                  i.fas.fa-angle-right
-                  | Áreas de bienestar de los trabajadores. 
-                li 
-                  i.fas.fa-angle-right
-                  | Área de almacenamiento de equipos.
-          
-          tr
-            th.th-2 Equipos, utensilios y herramientas. 
-            td.th-2  
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Condiciones, limpieza, procedimientos.
-          
-          tr
-            th Componente ambiental.
-            td 
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Agua.
-                li 
-                  i.fas.fa-angle-right
-                  |  Manejo de residuos sólidos y líquidos. 
-                li 
-                  i.fas.fa-angle-right
-                  |  Manejo de protección de suelos.
-                li 
-                  i.fas.fa-angle-right
-                  | Protección de insectos benéficos y polinizadores. 
-          
-          tr
-            th.th-2  Material de propagación.
-            td.th-2  
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Procedencia, normatividad, sanidad vegetal. 
-          
-          tr
-            th Nutrición del cultivo.
-            td 
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Plan de fertilización, análisis de suelos, procedimientos. 
+          .tableContainer 
+            tr
+              th Áreas e instalaciones.
+              td 
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    | Áreas e instalaciones sanitarias.
+                  li 
+                    i.fas.fa-angle-right
+                    | Áreas de almacenamiento de insumos agrícolas.
+                  li 
+                    i.fas.fa-angle-right
+                    |  Área de dosificación y preparación de mezclas. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Área de almacenamiento de combustibles
+                  li 
+                    i.fas.fa-angle-right
+                    | Área de acopio transitorio de productos cosechados.
+                  li 
+                    i.fas.fa-angle-right
+                    | Áreas de bienestar de los trabajadores. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Área de almacenamiento de equipos.
+            
+            tr
+              th.th-2 Equipos, utensilios y herramientas. 
+              td.th-2  
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    | Condiciones, limpieza, procedimientos.
+            
+            tr
+              th Componente ambiental.
+              td 
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    | Agua.
+                  li 
+                    i.fas.fa-angle-right
+                    |  Manejo de residuos sólidos y líquidos. 
+                  li 
+                    i.fas.fa-angle-right
+                    |  Manejo de protección de suelos.
+                  li 
+                    i.fas.fa-angle-right
+                    | Protección de insectos benéficos y polinizadores. 
+            
+            tr
+              th.th-2  Material de propagación.
+              td.th-2  
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    | Procedencia, normatividad, sanidad vegetal. 
+            
+            tr
+              th Nutrición del cultivo.
+              td 
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    | Plan de fertilización, análisis de suelos, procedimientos. 
 
 
-          tr
-            th.th-2  Protección del cultivo.
-            td.th-2  
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  |  Plan de protección sanitaria, capacitación para manipulación de agroquímicos. 
+            tr
+              th.th-2  Protección del cultivo.
+              td.th-2  
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    |  Plan de protección sanitaria, capacitación para manipulación de agroquímicos. 
 
 
-          tr
-            th Personal.
-            td 
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  | Elementos de protección, capacitaciones, emergencias. 
+            tr
+              th Personal.
+              td 
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    | Elementos de protección, capacitaciones, emergencias. 
 
 
-          tr
-            th.th-2  Trazabilidad. 
-            td.th-2  
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-angle-right
-                  |  Procedimientos de trazabilidad. 
+            tr
+              th.th-2  Trazabilidad. 
+              td.th-2  
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-angle-right
+                    |  Procedimientos de trazabilidad. 
         .row.m-top-1
           .col-lg-12
             .jumbotron-1.p-3  Nota. Tomada del Instituto Colombiano Agropecuario - ICA (2020).
 
     p.mb-3 Ahora, en todo desarrollo de un programa de certificación se debe tener en cuenta:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-down")
       .col-lg-4.col-auto.mb-3.mb-lg-0
         .tarjeta.tarjeta-up
           img(src="@/assets/curso/images/tema3/tj_5.png", alt= "")
@@ -243,7 +283,7 @@
 
     p.mb-3 En la siguiente matriz se presenta un ejemplo sobre cómo, a partir de un requerimiento técnico, es posible definir las actividades que se deben llevar a cabo para cumplir con la normativa.
 
-    .row.align-items-center.justify-content-center.p-4
+    .row.align-items-center.justify-content-center.p-4(data-aos="zoom-in-down")
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 6.
@@ -276,14 +316,14 @@
       .h2 3.4  Gestión de recursos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5(data-aos="fade") 
+      .col-lg-5(data-aos="fade-right") 
         p.mb-3 Con base en los objetivos del programa de certificación y en la evaluación de los requerimientos técnicos, es posible identificar los recursos necesarios para llevar a cabo el proceso, lo cual es fundamental para determinar si este es viable. Para hacer una estimación de recursos que atienda a las necesidades del programa de certificación y que satisfaga todos los requisitos de los estándares seleccionados, es necesario #[span.color-text definir el alcance de las actividades y los elementos necesarios para su implementación.]
         p.mb-0 En la siguiente matriz, se invita a identificar los aspectos que se tienen en cuenta en la estimación de los recursos (alcance de actividades / elementos necesarios).    
        
-      .col-lg-7.mb-3(data-aos="fade-right") 
+      .col-lg-7.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema3/img_5.png'  alt='')
 
-    .row.align-items-center.justify-content-center.p-4
+    .row.align-items-center.justify-content-center.p-4(data-aos="zoom-in-down")
       .col-lg-8 
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 7
@@ -292,9 +332,9 @@
           table.tableizer-table
             thead.th-1
               tr.tableizer-firstrow
-                th.text-white.text-center Actividad
-                th.text-white.text-center   Recurso
-                th.text-white.text-center   Tipo de recurso
+                th.text-white.text-center.th-1 Actividad
+                th.text-white.text-center.th-1   Recurso
+                th.text-white.text-center.th-1   Tipo de recurso
             tbody
               tr.th-2 
                 <td rowspan="3 "> Adecuar sistema de ventilación e iluminación en área de almacenamiento. </td> 
@@ -341,7 +381,7 @@
 
     .row.align-items-center.justify-content-center.p-4.mb-5
       .col-lg-8 
-        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-down")
           h5 Figura 5
           span <i>Principales recursos de las empresas</i>
         img(src='@/assets/curso/images/tema3/fig_2.svg'  alt='')(data-aos="zoom-in-right")
@@ -349,7 +389,7 @@
     .row.justify-content-center.align-items-star.mb-5
       .col-lg-5.mb-3(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema3/img_6.png'  alt='')
-      .col-lg-7(data-aos="fade") 
+      .col-lg-7(data-aos="fade-left") 
         p.mb-3 Una vez se tiene claridad sobre los recursos que serán necesarios para el desarrollo de programa de certificación:    
         ul.lista-ul--color
           li 
@@ -381,13 +421,16 @@
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="¿Qué es un protocolo?")
+            h4 ¿Qué es un protocolo?
             p.mb-0 En términos generales, un protocolo es un conjunto de reglas establecidas para realizar alguna tarea o actividad.
             
           .tarjeta.back-tab.px-5.py-4(titulo="Finalidad de los protocolos")
+            h4 Finalidad de los protocolos
             p.mb-0 En el ámbito de las certificaciones los protocolos se establecen para estandarizar los procesos y procedimientos que tienen lugar dentro de la unidad productiva, con lo cual es posible disminuir los riesgos a la salud y mantener los más altos estándares de calidad en cada una de las etapas de la actividad productiva.
            
           
           .tarjeta.back-tab.px-5.py-4(titulo="¿Qué determina el protocolo a seguir?")
+            h4 ¿Qué determina el protocolo a seguir?
             p.mb-0 Dependiendo de las necesidades de la empresa agropecuaria y del tipo de actividades que se realice, es posible establecer los respectivos protocolos.
 
     p.mb-5 Algunas recomendaciones que se pueden considerar, al momento de elaborar un protocolo, son:
@@ -423,14 +466,14 @@
 
    
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4(data-aos="fade") 
+      .col-lg-4(data-aos="fade-right") 
         .col-lg-9.bg-color-9.px-2.py-4
           .h4.mb-0 Tipos de protocolos
         p.mb-3 Los tipos de protocolos dependen básicamente del propósito que tengan y del público al cual se dirigen. Existen protocolos muy básicos que, únicamente, indican la forma en la que se debe realizar cierta tarea o procedimiento, pero no son de obligatorio cumplimiento.
         .jumbotron-5.p-4
           p.mb-0 Estos van dirigidos a todo tipo de personas y se utilizan principalmente en espacios abiertos al público para compartir cierto tipo de indicaciones.       
        
-      .col-lg-8.mb-3(data-aos="fade-right") 
+      .col-lg-8.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema3/img_9.png'  alt='')
 
     .row.align-items-center.justify-content-center.p-4.mb-3
@@ -452,8 +495,8 @@
         img.mb-3(src='@/assets/curso/images/tema3/fig_4.svg'  alt='')(data-aos="zoom-in-right")
 
 
-    .row.align-items-center.justify-content-center.p-4
-      .col-lg-12
+    .row.align-items-center.justify-content-center
+      .col-lg-12(data-aos="zoom-in-down")
         .cajon.color-custom-5.p-3
           p.mb-0 Estos protocolos son mucho más específicos en cuanto a la forma como describen las instrucciones y al lenguaje que emplean para dirigirse al personal. Sus contenidos son más extensos y su implementación al interior de la unidad productiva es de estricto cumplimiento para conseguir el aseguramiento de la calidad.
 
@@ -463,13 +506,13 @@
       .h2 3.6 Implementación del programa de certificación
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6(data-aos="fade") 
+      .col-lg-6(data-aos="fade-right") 
         p.mb-3 Para la puesta en marcha del proceso de certificación es necesario desarrollar un trabajo articulado entre las diferentes áreas de la unidad productiva, ya que cada una de ellas tiene definidas sus funciones, procedimientos, protocolos.     
         p.mb-0 Si bien no hay un procedimiento estándar para la implementación de los programas de certificación, existen algunos elementos comunes que vale la pena tener en cuenta. Estos se pueden conocer observando con atención el siguiente video:         
-      .col-lg-6.mb-3(data-aos="fade-right") 
+      .col-lg-6.mb-3(data-aos="fade-left") 
         img.mt-5(src='@/assets/curso/images/tema3/img_10.png'  alt='')
 
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in-down")
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/vzdMBPGohO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -486,7 +529,7 @@
       .col-lg-12
         img(src='@/assets/curso/images/tema3/img_11.png'  alt='')(data-aos="zoom-in-right")
 
-    .row.align-items-center.justify-content-center.p-4
+    .row.align-items-center.justify-content-center.p-4(data-aos="zoom-in-down")
       .col-lg-10
         .cajon.color-custom-5.p-4
           p.mb-0 Debido a que el aseguramiento de la calidad es un tema que abarca muchos aspectos y áreas temáticas de la empresa pecuaria, el trabajo en equipo es necesario para desarrollar una labor integral al momento de seguir los estándares seleccionados. 
@@ -499,10 +542,10 @@
       .col-lg-12
         img(src='@/assets/curso/images/tema3/fig_5.svg'  alt='')(data-aos="zoom-in-right")
 
-    .row.justify-content-center.align-items-star
-      .col-lg-6.mb-3(data-aos="fade-left") 
+    .row.justify-content-center.align-items-star.mb-3
+      .col-lg-6.mb-3(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema3/img_12.png'  alt='')
-      .col-lg-6(data-aos="fade")
+      .col-lg-6(data-aos="fade-left") 
         .cajon.color-custom-1.p-4   
           p.mb-3 Por medio del trabajo en equipo es posible obtener una visión más integral de las situaciones que se dan al interior de la unidad productiva, al tiempo que se recogen diversos análisis que permiten enriquecer las discusiones y diseñar estrategias más robustas para el cumplimiento de los estándares de certificación. 
           p.mb-0 Igualmente, el trabajo en equipo incide en la forma como los colaboradores se autoperciben dentro del sistema, con lo cual desarrollan un mayor sentido de pertenencia hacia la empresa y los valores corporativos. 
@@ -567,42 +610,43 @@
     .row.justify-content-center.align-items-center.my-3
       .col-lg-12
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
-          .tarjeta-avatar
+          .tarjeta-avatar.h-100
             img(src='@/assets/curso/images/tema3/ico_3.svg' alt='imagen relacionada' style='width:150px')
-            .tarjeta.tarjeta_grey-1
+            .tarjeta.tarjeta_grey-1.h-100
               .p-4 
                 p.text-center Las metodologías que se emplearán.   
-          .tarjeta-avatar
+          .tarjeta-avatar.h-100
             img(src='@/assets/curso/images/tema3/ico_4.svg' alt='imagen relacionada' style='width:150px')
-            .tarjeta.tarjeta_grey-1
+            .tarjeta.tarjeta_grey-1.h-100
               .p-4
                 p.text-center El tiempo estimado para las capacitaciones.
 
-          .tarjeta-avatar
+          .tarjeta-avatar.h-100
             img(src='@/assets/curso/images/tema3/ico_5.svg' alt='imagen relacionada' style='width:150px')
-            .tarjeta.tarjeta_grey-1
+            .tarjeta.tarjeta_grey-1.h-100
               .p-4
                 p.text-center La logística necesaria.
 
-          .tarjeta-avatar
+          .tarjeta-avatar.h-100
             img(src='@/assets/curso/images/tema3/ico_6.svg' alt='imagen relacionada' style='width:150px')
-            .tarjeta.tarjeta_grey-1   
+            .tarjeta.tarjeta_grey-1.h-100   
               .p-4
                 p.text-center El costo aproximado de cada jornada.
 
 
-          .tarjeta-avatar
+          .tarjeta-avatar.h-100
             img(src='@/assets/curso/images/tema3/ico_7.svg' alt='imagen relacionada' style='width:150px')
-            .tarjeta.tarjeta_grey-1                  
+            .tarjeta.tarjeta_grey-1.h-100                  
               .p-4
                 p.text-center Las herramientas pedagógicas.
 
-          .tarjeta-avatar
+          .tarjeta-avatar.h-100
             img(src='@/assets/curso/images/tema3/ico_8.svg' alt='imagen relacionada' style='width:150px')
-            .tarjeta.tarjeta_grey-1                  
+            .tarjeta.tarjeta_grey-1.h-100                  
               .p-4
                 p.text-center Los resultados esperados con cada una de las actividades.
-    .row.justify-content-center.align-items-center.my-3
+                
+    .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in-down")
       .col-lg-10
         .jumbotron-6.p-4    
             .row.mb-2.ps-2(data-aos="zoom-in-down")
@@ -639,7 +683,7 @@ export default {
     position: absolute
     bottom: -200%
     width: 100%
-    height: 100%
+    height: 105%
     padding: 2rem
     transition: bottom 0.7s ease-in-out
     &.bg-1

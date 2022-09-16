@@ -8,12 +8,12 @@
       h1 Análisis del sistema productivo
 
     .row.justify-content-center.align-items-star.mb-5
-      .col-lg-6(data-aos="fade") 
+      .col-lg-6(data-aos="fade-right") 
         p.mb-3 El primer paso para la implementación de los procesos de certificación de unidades productivas es realizar un análisis exhaustivo de cada uno de sus componentes, identificando sus fortalezas y debilidades, y estableciendo los aspectos que requieren especial atención, lo cual es posible a través de un diagnóstico.        
         .jumbotron-7.p-4         
           p.mb-0 En esa evaluación previa se determina el grado de avance de la empresa agropecuaria en relación con los estándares que se desean implementar, lo que dará como resultado un plan de acción. 
 
-      .col-lg-6.mb-3(data-aos="fade-right") 
+      .col-lg-6.mb-3(data-aos="fade") 
         img(src='@/assets/curso/images/tema2/img_1.png'  alt='')
 
     Separador
@@ -41,7 +41,7 @@
     
     p.mb-5 Al interior de la unidad productiva, las principales fuentes de información que se pueden encontrar son las siguientes:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-lg-4.col-auto.mb-3.mb-lg-0
         .tarjeta.tarjeta-up
           img(src="@/assets/curso/images/tema2/img_3.png", alt= "")
@@ -67,10 +67,12 @@
 
     p.mb-3 Esta es una herramienta muy eficaz que permite asegurar la calidad del producto y disminuir los daños y los riesgos al consumidor, especialmente, cuando se trata de alimentos. Las características principales de un sistema de trazabilidad son:
 
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.m-top.mb-0.cs
     .row.justify-content-center.align-items-center.my-3
       .col-lg-4.mb-0(data-aos="fade-right")
         img(src="@/assets/curso/images/tema2/img_6.png", alt= "")
 
+ 
       .col-lg-8
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in-down")
           .tarjeta-avatar
@@ -109,12 +111,12 @@
                 p Determina qué tan confiable es la información recopilada.
 
     .row.justify-content-center.align-items-star.mb-5
-      .col-lg-6(data-aos="fade") 
+      .col-lg-6(data-aos="fade-right") 
         p.mb-3 El primer paso para la implementación de los procesos de certificación de unidades productivas es realizar un análisis exhaustivo de cada uno de sus componentes, identificando sus fortalezas y debilidades, y estableciendo los aspectos que requieren especial atención, lo cual es posible a través de un diagnóstico.        
         .cajon.color-custom-1.p-4         
           p.mb-0 Es por esto que la trazabilidad es una de las principales fuentes de información para la toma de decisiones relacionadas con el funcionamiento de la unidad productiva y/o la identificación de oportunidades de mejora. 
 
-      .col-lg-6.mb-3(data-aos="fade-right") 
+      .col-lg-6.mb-3(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema2/img_7.png'  alt='')
 
     p.mb-3 A partir de la información depositada en un sistema de trazabilidad de un producto, se identifica la procedencia de la materia prima empleada en su
@@ -123,9 +125,9 @@
 
     .row.justify-content-center.align-items-center.p-2
       .col-lg-4(data-aos="fade-right")
-        img.mt-5(src='@/assets/curso/images/tema2/img_8.png')
+        img.mt-5(src='@/assets/curso/images/tema2/img_8.png').mb-3
       .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-left")
-        .row.mb-5.ps-2(data-aos="zoom-in-down")
+        .row.mb-5.ps-2(data-aos="fade-left") 
           .col-lg-4.bg-color-3.px-4.py-3
             .h4.mb-0 Registros
 
@@ -169,34 +171,36 @@
 
     .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Ejemplo de encabezado de la lista de chequeo para auditoría de predios rurales
+            h4.mb-5 Ejemplo de encabezado de la lista de chequeo para auditoría de predios rurales
           .col-lg-8
             img(src="@/assets/curso/images/tema2/img_9.svg").mb-3
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Ejemplo de cuerpo de lista de chequeo
+            h4.mb-5 Ejemplo de cuerpo de lista de chequeo
             p.mb-3 En el cuerpo de la lista de chequeo, siguiendo con el ejemplo anterior, se observan los diferentes criterios a evaluar y en los cuales se deberá indicar si la unidad productiva cumple o no cumple. En el caso de este formato en particular se agrega una columna en la que se indica si el aspecto evaluado es mayor (My), fundamental (F) o menor (Mn), porque al final del diligenciamiento esto permitirá ponderar los resultados, debido a que existen aspectos que tienen un mayor peso específico que otros.
           .col-lg-8
             img(src="@/assets/curso/images/tema2/img_10.svg").mb-3
 
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Ejemplo de lista de chequeo - observaciones
+            h4.mb-5 Ejemplo de lista de chequeo - observaciones
             p.mb-3 En la parte final de la lista de chequeo se realiza un cálculo inicial de los resultados obtenidos, con lo cual es posible indicar si se cumplió o no con los requisitos establecidos. Igualmente, en esta parte del documento se deja un espacio para observaciones, el que da la posibilidad de registrar eventos o situaciones que se hayan presentado en el ejercicio de captura de información y que, eventualmente, pueden enriquecer el análisis de la información.  
           .col-lg-8
-            img(src="@/assets/curso/images/tema2/img_11.svg").mb-3
+           img(src="@/assets/curso/images/tema2/img_11.svg").mb-3
+
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
     .row.justify-content-center.align-items-star
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="fade-right")
         .cajon.color-custom.p-4
           p.mt-5 En la parte final de la lista de chequeo es importante incluir siempre los datos de la persona que diligencia el documento y del encargado de la unidad productiva, lo cual permite tener la trazabilidad de las fechas en las que se realizó el proceso, los responsables y las observaciones efectuadas. 
 
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="zoom-in-up")
         img.mt-5(src='@/assets/curso/images/tema2/img_12.png')
 
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="fade-left")
         .cajon.color-custom-1.p-4
           .row.justify-content-center.align-items-center
             img.my-3(src='@/assets/curso/images/tema2/ico_8.svg', alt='imagen relacionada' style='width:80px')
@@ -209,49 +213,49 @@
 
     p.mb-3 El desarrollo de las tecnologías de la información y las comunicaciones ha tenido impactos significativos en todas las industrias, incluida la agropecuaria. Los recientes avances en lo relacionado con el almacenamiento y transmisión de grandes volúmenes de datos ha sido clave para la implementación de programas y aplicaciones que facilitan las gestiones administrativas y la toma de decisiones en la agroempresa; esto favorece en gran medida los procesos de certificación.
 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.mb-0.cs
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.mb-0.m-top.cs
     .row.justify-content-center.align-items-center.mt-3
       .col-lg-3.mb-0(data-aos="fade-right")
         p.mb-3 Por medio de la adopción de los programas para la administración de las unidades agropecuarias es posible, entre otras cosas:
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta_white-2.p-4
+          .tarjeta_white-2.p-4.h-100
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_9.svg' alt='imagen relacionada' style='width:80px').mx-auto        
+                img.mt-3(src='@/assets/curso/images/tema2/ico_9.svg' alt='imagen relacionada' style='width:100px').mx-auto        
               .col-md-10.py-3
                 p.text-center Controlar la maquinaria y los equipos. 
-          .tarjeta_white-2.p-4
+          .tarjeta_white-2.p-4.h-100
             .row.justify-content-center
-              .col-md-5.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_10.svg' alt='imagen relacionada' style='width:80px').mx-auto         
+              .col-md-5.mb-4.mb-md-3.p-0
+                img.mt-3(src='@/assets/curso/images/tema2/ico_10.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
                 p.text-center Gestionar la información climática.
-          .tarjeta_white-2.p-4
+          .tarjeta_white-2.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_11.svg' alt='imagen relacionada' style='width:80px').mx-auto          
+                img.mt-3(src='@/assets/curso/images/tema2/ico_11.svg' alt='imagen relacionada' style='width:100px').mx-auto          
               .col-md-10.py-3
                 p.text-center Gestionar el recurso humano.
-          .tarjeta_white-2.p-4
+          .tarjeta_white-2.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_12.svg' alt='imagen relacionada' style='width:80px').mx-auto        
+                img.mt-3(src='@/assets/curso/images/tema2/ico_12.svg' alt='imagen relacionada' style='width:100px').mx-auto        
               .col-md-10.py-3
                 p.text-center Controlar los inventarios y adquisiciones.
-          .tarjeta_white-2.p-4
+          .tarjeta_white-2.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_13.svg' alt='imagen relacionada' style='width:80px').mx-auto         
+                img.mt-3(src='@/assets/curso/images/tema2/ico_13.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
                 p.text-center Controlar la producción y los costos.
-          .tarjeta_white-2.p-4
+          .tarjeta_white-2.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_14.svg' alt='imagen relacionada' style='width:80px').mx-auto         
+                img.mt-3(src='@/assets/curso/images/tema2/ico_14.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
                 p.text-center Controlar las labores culturales.  
-    .row.justify-content-evenly.align-items-star
+    .row.justify-content-evenly.align-items-star.p-3
       .col-lg-6(data-aos="fade-right")
         img.mt-5(src='@/assets/curso/images/tema2/img_13.png').mb-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
@@ -270,8 +274,8 @@
           li 
             i.fas.fa-angle-right
             p  El alcance de objetivos y metas.
-    .row.justify-content-evenly.align-items-star
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
+    .row.justify-content-evenly.align-items-star.p-3
+      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-right")
         p.mb-3 No obstante, siendo importante el uso de los programas de cómputo y para ofrecer facilidades para la administración de la empresa y los procesos de certificación:
         ul.lista-ul--color
           li 
@@ -286,12 +290,12 @@
           li 
             i.fas.fa-angle-right
             p   En buena parte del territorio nacional, hay grandes dificultades de conectividad y acceso al fluido eléctrico, lo que genera dificultades de acceso y comunicación deficiente. 
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-6(data-aos="fade-left")
         img.mt-5(src='@/assets/curso/images/tema2/img_14.png').mb-3
       
     p.mb-3 Ahora, se presentan algunos de los programas y aplicativos tecnológicos diseñados para el agro que en Colombia, pese a las dificultades e inconvenientes de infraestructura, son usados en explotaciones con un alto componente empresarial: 
 
-    SlyderB.mb-5.color-slyder-b.px-5.py-5(:datos="datosSlyder")   
+    SlyderB.mb-5.color-slyder-b.px-5.py-5(:datos="datosSlyder")(data-aos="zoom-in-up")   
 
     Separador
 
@@ -308,7 +312,7 @@
           .row.mb-5.ps-2(data-aos="zoom-in-down")
             .col-lg-6.bg-color-5.px-4.py-4
               .h4.mb-0 Análisis e interpretación
-          p.mb-0 Pese a contar con herramientas que facilitan la captura y el acopio de información, en muchas ocasiones los empresarios del campo se quedan cortos frente al análisis e interpretación de los resultados obtenidos, lo cual sigue siendo una limitante en muchos sistemas productivos, donde la falta de conocimiento sobre el procesamiento de los datos o la falta de herramientas para su manejo se ha constituido en una problemática que dificulta la gestión empresarial. 
+            p.mb-0 Pese a contar con herramientas que facilitan la captura y el acopio de información, en muchas ocasiones los empresarios del campo se quedan cortos frente al análisis e interpretación de los resultados obtenidos, lo cual sigue siendo una limitante en muchos sistemas productivos, donde la falta de conocimiento sobre el procesamiento de los datos o la falta de herramientas para su manejo se ha constituido en una problemática que dificulta la gestión empresarial. 
 
     p.mb-3 Se invita a conocer algunos aspectos clave del análisis de datos para las organizaciones, aplicables a la finca agropecuaria; además, se recomienda registrar en su libreta personal de apuntes, lo más destacado:
 
@@ -336,7 +340,7 @@
             .col-md-10.mb-4.mb-md-0
               p.mb-3  La misma información puede presentarse en diferentes niveles de análisis o de organización según la intención, el tipo de análisis que sobre esta se haga, con base en el tipo de necesidades que se espera solventar habiendo recopilado la información.
           
-      .col-lg-4.mb-3(data-aos="fade")
+      .col-lg-4.mb-3(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_22.png'  alt='')
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
@@ -345,28 +349,28 @@
 
     .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Ejemplo: recolección simple
-            p.mb-0 En el recuadro (A), se presenta una serie de datos tal como se recolectó en campo. A primera vista no se identifican relaciones directas ni tendencias entre las variables “longitud promedio del tallo” y “gramos de fertilizante por planta”. 
+            h4.mb-5 Ejemplo: recolección simple
+            p.mb-3 En el recuadro (A), se presenta una serie de datos tal como se recolectó en campo. A primera vista no se identifican relaciones directas ni tendencias entre las variables “longitud promedio del tallo” y “gramos de fertilizante por planta”. 
           .col-lg-8
             img(src="@/assets/curso/images/tema2/img_23.svg").mb-3
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Ejemplo: información ordenada
+            h4.mb-5 Ejemplo: información ordenada
             p.mb-3 En el recuadro (B), con solo ordenar la información de “longitud promedio del tallo” de mayor a menor, se observa que la variable “gramos de fertilizante por planta” adquiere una configuración similar, de mayor a menor, lo cual se convierte en un primer indicio de la relación que existe entre las dos variables.
           .col-lg-8
             img(src="@/assets/curso/images/tema2/img_24.svg").mb-3
 
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Ejemplo: representaciones gráficas
+            h4.mb-5 Ejemplo: representaciones gráficas
             p.mb-3 En el recuadro (C) se va un poco más allá y se inserta un gráfico elaborado con base en la información obtenida en campo, esto da una visión mucho más clara de la relación que existe entre las dos variables y con base en lo cual es posible concluir que cuanto más fertilizante se aplique a la planta, mayor longitud del tallo se va a tener. 
           .col-lg-8
             img(src="@/assets/curso/images/tema2/img_25.svg").mb-3
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Visualización completa del ejemplo
+            h4.mb-5 Visualización completa del ejemplo
             p.mb-3 Aquí, observe en detalle los tres pasos mencionados y logre una comprensión amplia del proceso de observación de variables que intervienen en la producción: Recolección Simple (A), Información ordenada (B) y representaciones gráficas (C). 
           .col-lg-8
             img(src="@/assets/curso/images/tema2/img_26.svg").mb-3
@@ -455,103 +459,103 @@
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 1
           span <i>Principales variables técnicas empleadas en sistemas productivos</i>
-        .tabla-a
-          table.tableizer-table
+        .tabla-a(data-aos="zoom-in-up")
+          .tableContainer 
             thead.th-1
-              tr.tableizer-firstrow
+              tr.tableizer-firstrow.p-0 
                 th.text-white.text-center.th-1 Tipo de explotaci&oacute;n
                 th.text-white.text-center.th-1   Variable t&eacute;cnica
                 th.text-white.text-center.th-1   Unidades
             tbody
-              tr
+              tr.p-0
                 <td rowspan="5 "> Cultivos perennes.</td> 
                 td Toneladas por hect&aacute;rea.
                 td Toneladas.
-              tr
+              tr.p-0
                 td &Aacute;rea sembrada.
                 td Hect&aacute;reas.
-              tr
+              tr.p-0
                 td N&uacute;mero de &aacute;rboles.
                 td Unidades.
-              tr
+              tr.p-0
                 td D&iacute;as a cosecha.
                 td D&iacute;as.
-              tr
+              tr.p-0
                 td Densidad.
                 td &Aacute;rboles por hect&aacute;rea.
-              tr.th-2 
+              tr.th-2.p-0 
                 <td rowspan="3 "> Cultivos de ciclo corto.</td>
                 td.th-2  Toneladas por hect&aacute;rea.
                 td.th-2  Toneladas.
-              tr
+              tr.p-0
                 td.th-2   Densidad de siembra.
                 td.th-2  Plantas por hect&aacute;rea.
-              tr
+              tr.p-0
                 td.th-2  Costos por ciclo productivo.
                 td.th-2  Pesos.   
-              tr
+              tr.p-0
                 <td rowspan="5"> Explotaciones av&iacute;colas.</td> 
                 td Longitud del tarso.
                 td Cent&iacute;metros.
-              tr
+              tr.p-0
                 td N&uacute;mero diario de huevos.
                 td Unidades.     
-              tr
+              tr.p-0
                 td Densidad.
                 td Aves por metro cuadrado.         
-              tr
+              tr.p-0
                 td Consumo de alimento.
                 td Kilogramos d&iacute;a.
-              tr
+              tr.p-0
                 td Peso al sacrificio.
                 td Kilogramos.  
-              tr.th-2 
+              tr.th-2.p-0 
                 <td rowspan="5"> Explotaciones bovinas.</td> 
                 td.th-2   N&uacute;mero de hembras.
                 td.th-2  Unidades.
-              tr
+              tr.p-0
                 td.th-2  Nacidos vivos.
                 td.th-2  Unidades.     
-              tr
+              tr.p-0
                 td.th-2  Vacas pre&ntilde;adas.
                 td.th-2  Unidades.    
-              tr
+              tr.p-0
                 td.th-2  Peso al sacrificio.
                 td.th-2  Kilogramos.          
-              tr
+              tr.p-0
                 td.th-2  Litros diarios de leche.
                 td.th-2   Litros.        
-              tr
+              tr.p-0
                 <td rowspan="6"> Explotaciones porcinas.</td> 
                 td Nacidos vivos.
                 td Unidades.
-              tr
+              tr.p-0
                 td Edad al destete.
                 td D&iacute;as.   
-              tr
+              tr.p-0
                 td Peso al nacer.
                 td Kilogramos.    
-              tr
+              tr.p-0
                 td Edad al primer servicio.
                 td D&iacute;as.    
-              tr
+              tr.p-0
                 td Consumo diario de alimentos.
                 td Kilogramos.
-              tr
+              tr.p-0
                 td Peso al sacrificio.
                 td Kilogramos. 
-              tr.th-2 
+              tr.th-2.p-0
                 <td rowspan="3">Explotaciones caprinas.</td>
                 td.th-2  N&uacute;mero de cr&iacute;as.
                 td.th-2   Unidades.
-              tr
+              tr.p-0
                 td.th-2   Litros diarios de leche.
                 td.th-2   Litros.     
-              tr
+              tr.p-0
                 td.th-2  Peso al sacrificio.
                 td.th-2  Kilogramos.
     .row.justify-content-center.align-items-star.mb-5
-      .col-lg-10(data-aos="fade")   
+      .col-lg-10(data-aos="zoom-in-up") 
         .cajon.color-custom.p-4         
           p.mb-0 La elección de las variables técnicas que se emplearán para el análisis del comportamiento de la unidad productiva depende de los parámetros que se estimen convenientes medir. 
 
@@ -559,10 +563,10 @@
 
     .row.align-items-center.justify-content-center.p-4
       .col-lg-8 
-        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-up")
           h5 Tabla 2
           span <i>Variables técnicas para la evaluación de procesos administrativos o financieros</i>
-        .tabla-a
+        .tabla-a(data-aos="zoom-in-up")
           table.tableizer-table
             thead.th-1
               tr.tableizer-firstrow-1
@@ -597,8 +601,8 @@
                 td.th-2  Utilidades anuales.
                 td.th-2  Millones de pesos.
 
-    .row.justify-content-evenly.align-items-star
-      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-left")
+    .row.justify-content-evenly.align-items-star.p-3
+      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-right") 
         p.mb-3 En la medición de las variables técnicas es importante:
         ul.lista-ul--color
           li 
@@ -619,42 +623,42 @@
           li 
             i.fas.fa-angle-right
             | Definir cómo se presentarán los resultados.
-      .col-lg-7.mt-5(data-aos="fade-right")
+      .col-lg-7.mt-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_28.png')    
 
     .row.justify-content-center.align-items-star
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="fade-right") 
         .cajon.color-custom.p-4
           p.mt-5 Debido a que los procesos de certificación son rigurosos, en cuanto a la calidad de la información que se recolecte a través de los instrumentos correspondientes, es importante establecer metodologías claras y concretas para hacer mediciones periódicas.
 
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="zoom-in-up")
         img.mt-5(src='@/assets/curso/images/tema2/img_29.png')
 
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="fade-left")
         .cajon.color-custom-1.p-4
           .row.justify-content-center.align-items-center
             p.mb-5 En el caso de las explotaciones en las que se trabaja con muchos individuos de especie (peces, aves, ganado bovino) es recomendable seleccionar una muestra representativa para obtener una idea de lo que realmente ocurre al interior de la población.
 
     .row.justify-content-center.align-items-star
-      .col-lg-11.mb-3
+      .col-lg-12.mb-3
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span 
             h3 Indicadores
-    .row.justify-content-evenly.align-items-star
-      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-left")
+    .row.justify-content-evenly.align-items-star.p-3
+      .col-12.col-lg-6.mb-4.p-0.p-md-6.mt-5(data-aos="fade-right") 
         p.mb-3 Otro de los aspectos que se debe tener en cuenta para el análisis e interpretación de la información relacionada con el funcionamiento de la unidad productiva es el de los indicadores. Un indicador es una característica observable, medible, cuantificable que, generalmente, es empleada para revisar la dinámica de una situación particular, es decir, los cambios que esta experimente en un espacio determinado de tiempo.     
         p.mb-0 En las unidades productivas agropecuarias los indicadores dan cuenta del grado de avance hacia el logro de los objetivos de la empresa o el cumplimiento de las metas establecidas. La siguiente tabla presenta un ejemplo.
-      .col-lg-7.mt-5(data-aos="fade-right")
+      .col-lg-6.mt-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_30.png')
 
     .row.align-items-center.justify-content-center.p-4
-      .col-lg-8 
-        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-up")
           h5 Tabla 3
           span <i>Ejemplo de objetivo, indicador y medio de verificación</i>
-        .tabla-a
+        .tabla-a(data-aos="zoom-in-up")
           table.tableizer-table-1
             thead.th-1
               tr.tableizer-firstrow
@@ -667,7 +671,7 @@
                 td.text-center.th-3 Lista de chequeo de cumplimiento de requisitos. 
             
     .row.align-items-center.justify-content-center.p-4
-      .col-lg-12
+      .col-lg-12(data-aos="zoom-in-up")
         .jumbotron-2.p-4
           p.mb-0 El indicador siempre se debe acompañar de un medio de verificación, el cual consiste en un documento o un registro que sirve como evidencia de su cumplimiento. Al momento de formular un indicador se debe procurar que sea realmente efectivo y recopile la información que se requiere para evaluar el comportamiento del sistema productivo.
 
@@ -676,72 +680,60 @@
     .row.justify-content-center.align-items-center.mt-3
       .col-lg-3.mb-0(data-aos="fade-right")
         p.mb-3 En vista de lo anterior es necesario que cumpla con los siguientes requisitos:
-      .col-lg-9
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta_white-2.p-4
+      .col-lg-9(data-aos="fade-left")
+        SlyderF(columnas="col-lg-6 col-xl-6")
+          .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_24.svg' alt='imagen relacionada' style='width:80px').mx-auto        
               .col-md-10.py-3
-                h3.text-center Objetividad
+                h3.text-center.mb-3  Objetividad
                 p.text-center No puede tener sesgos personales. Debe ser totalmente independiente.
-          .tarjeta_white-2.p-4
+          .tarjeta_white-2
             .row.justify-content-center
-              .col-md-5.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_25.svg' alt='imagen relacionada' style='width:80px').mx-auto         
+              .col-md-6.mb-4.mb-md-2.p-0
+                img.mt-3(src='@/assets/curso/images/tema2/ico_25.svg' alt='imagen relacionada' style='width:80px').mx-auto           
               .col-md-10.py-3
-                h3.text-center  Medible objetivamente
-                p.text-center Se debe poder medir independientemente de la forma de pensar de quien lo hace.
-          .tarjeta_white-2.p-4
+                h3.text-center.mb-3  Medible objetivamente
+                p.text-center Se debe poder medir independientemente de la forma de pensar de quien lo hace
+          .tarjeta_white-2
             .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_26.svg' alt='imagen relacionada' style='width:80px').mx-auto          
+              .col-md-6.mb-4.mb-md-2.p-0
+                img.mt-3(src='@/assets/curso/images/tema2/ico_26.svg' alt='imagen relacionada' style='width:80px').mx-auto         
               .col-md-10.py-3
-                h3.text-center Relevancia
-                p.text-center Debe reflejar una dimensión importante del logro del objetivo.
-          .tarjeta_white-2.p-4
+                h3.text-center.mb-3  Relevancia
+                p.text-center.px-2.px-md-0 Debe reflejar una dimensión importante del logro del objetivo.
+          .tarjeta_white-2
             .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_27.svg' alt='imagen relacionada' style='width:80px').mx-auto        
-              .col-md-10.py-3
-                h3.text-center Aporte marginal
-                p.text-center Siempre debe aportar información relevante independientemente de si existen indicadores similares.
-          .tarjeta_white-2.p-4
+              .col-md-6.mb-4.mb-md-2.p-0
+                img.mt-3(src='@/assets/curso/images/tema2/ico_27.svg' alt='imagen relacionada' style='width:80px').mx-auto       
+              .col-md-9.py-3
+                h3.text-center.text-1 Aporte marginal
+                p.text-center.text Siempre debe aportar información relevante independientemente de si existen indicadores similares.
+          .tarjeta_white-2
             .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_28.svg' alt='imagen relacionada' style='width:80px').mx-auto         
+              .col-md-6.mb-4.mb-md-2.p-0
+                img.mt-4(src='@/assets/curso/images/tema2/ico_28.svg' alt='imagen relacionada' style='width:80px').mx-auto           
               .col-md-10.py-3
-                h3.text-center Pertinencia
-                p.text-center El indicador mide única y exclusivamente lo que se desea evaluar.  
-          .tarjeta_white-2.p-4
-            .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_29.svg' alt='imagen relacionada' style='width:80px').mx-auto         
-              .col-md-10.py-3
-                h3.text-center Economía
-                p.text-center La información está disponible para el proceso de seguimiento a un costo razonable. 
-          .tarjeta_white-2.p-4
-            .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_30.svg' alt='imagen relacionada' style='width:80px').mx-auto         
-              .col-md-10.py-3
-                h3.text-center Monitoreable
-                p.text-center El proceso de implementación debe ofrecer la posibilidad de que se le realice seguimiento de manera independiente. 
-    .row.justify-content-evenly.align-items-star
+                h3.mb-4.text-center Mensaje
+                p.text-center Elemento a transmitir.
+
+
+    .row.justify-content-evenly.align-items-star.mt-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         .row.mb-5.ps-2(data-aos="zoom-in-down")
           .col-lg-6.bg-color-6.px-4.py-4
             .h4.mb-0 Tipos de indicadores
 
-        p.mb-3 Los indicadores se pueden agrupar de diversas maneras, pero la forma más aceptada es la que los organiza de acuerdo con lo que se desea evaluar. Con esta clasificación se obtienen indicadores que miden los impactos de las intervenciones o las actividades, otros que evalúan las gestiones realizadas, otros que se centran en el producto obtenido, los procesos o los resultados.  
+          p.mb-3 Los indicadores se pueden agrupar de diversas maneras, pero la forma más aceptada es la que los organiza de acuerdo con lo que se desea evaluar. Con esta clasificación se obtienen indicadores que miden los impactos de las intervenciones o las actividades, otros que evalúan las gestiones realizadas, otros que se centran en el producto obtenido, los procesos o los resultados.  
 
-        p.mb-0 La siguiente tabla presenta los diferentes tipos de indicadores.      
+          p.mb-0 La siguiente tabla presenta los diferentes tipos de indicadores.      
         
       .col-lg-6.mt-5(data-aos="fade-right")
         img(src='@/assets/curso/images/tema2/img_31.png')
       
     .row.align-items-center.justify-content-center.p-4
-      .col-lg-12
+      .col-lg-12(data-aos="zoom-in-up")
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
           h5 Tabla 4
           span <i>Tipos de indicadores</i>
@@ -785,18 +777,18 @@
     #t_2_5.titulo-segundo
       .h2 2.5 Diagnóstico
 
-    .row.justify-content-evenly.align-items-star
-      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-6.mb-4.p-0(data-aos="fade-right") 
 
-        p.mb-3 El diagnóstico es el documento que recopila el análisis del sistema productivo, sus características, las condiciones del predio y los demás factores que inciden en la productividad y en la calidad con la que se realizan los procesos internos. Para la certificación es fundamental contar con un buen diagnóstico ya que a partir de lo que se consigne allí se definirán los objetivos, metas, actividades e indicadores que orientarán el trabajo en la empresa agropecuaria en función del cumplimiento de los estándares seleccionados.     
+        p.mt-5 El diagnóstico es el documento que recopila el análisis del sistema productivo, sus características, las condiciones del predio y los demás factores que inciden en la productividad y en la calidad con la que se realizan los procesos internos. Para la certificación es fundamental contar con un buen diagnóstico ya que a partir de lo que se consigne allí se definirán los objetivos, metas, actividades e indicadores que orientarán el trabajo en la empresa agropecuaria en función del cumplimiento de los estándares seleccionados.     
 
         p.mb-0 Para profundizar en los elementos y generalidades más importantes del diagnóstico empresarial, observe con atención el video que se muestra a continuación y lleve registro de lo más destacado:  
         
-      .col-lg-7.mt-5(data-aos="fade-right")
+      .col-lg-6.mt-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_32.png')
     
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-down")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/gTFdH8Y1uZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     p.mb-3 Sobre el diagnóstico de la organización, se debe tener en cuenta:
@@ -817,7 +809,7 @@
           .row.justify-content-center.align-items-center(titulo="Dónde encontrar el formato de lista de chequeo")
             .col-md-12.mb-4.mb-md-0
               p.mb-3  En la Resolución 082394 de 2020 del Instituto Colombiano Agropecuario - ICA se presenta la lista de chequeo que deben cumplir los predios interesados en la certificación en Buenas Prácticas Agrícolas  - BPA. 
-      .col-lg-4.mb-3(data-aos="fade")
+      .col-lg-4.mb-3(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_33.png'  alt='')
 
 

@@ -10,39 +10,39 @@
     p.mb-3 Los procesos de certificación de unidades productivas agropecuarias se desarrollan para mejorar su competitividad y asegurar la calidad de los alimentos y materias primas que, a diario, se consumen en el mundo entero. 
 
     .row.justify-content-center.align-items-star.mb-3
-      .col-lg-5(data-aos="fade")     
+      .col-lg-5(data-aos="fade-right") 
         .cajon.color-custom-5.p-4         
           p.mb-0 Igualmente, se basa en la búsqueda de una garantía que le indique al consumidor que está frente a un producto, que no va a afectar su salud, que es elaborado de manera sostenible, que su producción no deteriora las condiciones del medio ambiente y que los procesos de producción cumplen con los más altos estándares nacionales e internacionales.
 
-      .col-lg-7.mb-3(data-aos="fade-right") 
+      .col-lg-7.mb-3(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/img_1.png'  alt='')
 
     p.mb-5 Las siguientes, son generalidades que, sobre certificación de unidades agropecuarias, se deben tener en cuenta:
   
     .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Distinción del producto
+            h4.mb-5 Distinción del producto
             p.mb-3 A través de los procesos de certificación se obtiene un sello que distingue a un producto de otros, lo cual se convierte en un elemento diferenciador que mejorará la confianza de los consumidores en los productos, permite mayores precios de venta y facilita el acceso a nuevos mercados, incluso, en ámbitos internacionales.
           .col-lg-8
             img(src="@/assets/curso/images/tema1/img_2.png").mb-3
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Mejora profunda de los procesos
+            h4.mb-5 Mejora profunda de los procesos
             p.mb-3 Cuando se implementan procesos de certificación se obtiene una mejora sustancial en los procesos de manufactura debido al estricto seguimiento del que son objeto, lo cual reduce los costos de producción al procurar un uso eficiente de los recursos disponibles y una administración responsable del negocio agropecuario.
           .col-lg-8
             img(src="@/assets/curso/images/tema1/img_3.png").mb-3
 
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Entes competentes
+            h4.mb-5 Entes competentes
             p.mb-3 En el ámbito nacional, Instituto Colombiano Agropecuario - ICA es el ente encargado de regular la actividad del sector y parte de sus funciones consiste en el establecimiento de los requisitos para la certificación de los predios en aspectos relacionados con las Buenas Prácticas Agrícolas (BPA), Buenas Prácticas Ganaderas (BPG), buenas prácticas acuícolas y granjas bioseguras. 
           .col-lg-8
             img(src="@/assets/curso/images/tema1/img_4.svg").mb-3
-        .row.justify-content-center.align-items-star.p-5
+        .row.justify-content-center.align-items-star.p-3
           .col-lg-4
-            h3.mb-5 Certificaciones adicionales o complementarias
+            h4.mb-5 Certificaciones adicionales o complementarias
             p.mb-3 Además de los requisitos establecidos por el ICA, las actividades productivas agropecuarias pueden obtener certificaciones adicionales a las que se accede de manera voluntaria, las cuales le confieren al producto un sello de calidad que lo acredita como depositario de ciertas características especiales.
           .col-lg-8
             img(src="@/assets/curso/images/tema1/img_5.png").mb-3
@@ -59,9 +59,9 @@
       .h2 1.1  Normativa
 
     .row.justify-content-center.align-items-center
-      .col-lg-12(data-aos="fade")
+      .col-lg-12(data-aos="fade-left")
         .row.align-items-center.justify-content-center.mb-3
-          .col-lg-6(data-aos="fade-left")
+          .col-lg-6
             p.mb-3 En Colombia la actividad agropecuaria es regulada principalmente por el Ministerio de Agricultura y Desarrollo Rural, que se encarga de coordinar y evaluar las políticas públicas agropecuarias incluyentes que promuevan el desarrollo integral del sector, y por el Instituto Colombiano Agropecuario - ICA, el cual se enfoca en la prevención, vigilancia y control de los riesgos sanitarios, biológicos y químicos para las especies animales y vegetales que se cultivan y producen en el territorio nacional.
             
             .jumbotron-9.p-4
@@ -70,22 +70,22 @@
           .col-lg-6.mb-3(data-aos="fade-right") 
             img(src='@/assets/curso/images/tema1/img_6.png'  alt='')
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left") 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-up")
       .col-lg-10 
         .cajon.color-custom-6.py-4.px-4
           .row.justify-content-center.align-items-center
-            .col-lg-2
-              img(src='@/assets/curso/images/tema1/ico_1.svg'  alt='')
+            .col-4.col-lg-2
+              img(src='@/assets/curso/images/tema1/ico_1.svg' alt='' , style="width:90px; display:block; margin:auto 0 ;")
             .col-lg-10
-              p.mb-5 Igualmente, los ministerios de Agricultura y Desarrollo Rural y De Ambiente y Desarrollo Sostenible han generado certificaciones que dan garantía de calidad frente a algunos productos agropecuarios, lo cual les permite destacar y obtener un valor agregado que finalmente resulta definitivo en procesos comerciales.
+              p.mt-3 Igualmente, los ministerios de Agricultura y Desarrollo Rural y De Ambiente y Desarrollo Sostenible han generado certificaciones que dan garantía de calidad frente a algunos productos agropecuarios, lo cual les permite destacar y obtener un valor agregado que finalmente resulta definitivo en procesos comerciales.
 
     p.mb-5 A continuación, se presentan algunas resoluciones emitidas por el ICA sobre buenas prácticas ganaderas.
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="zoom-in-up")
       .py-4.py-md-5(titulo="Normativa ICA buenas prácticas ganaderas" :icono="require('@/assets/curso/images/tema1/ico_2.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Normativa ICA  buenas prácticas ganaderas
+              h4 Normativa ICA  buenas prácticas ganaderas
               .row.justify-content-center.align-items-center.mt-5
                 .col-lg-6
                   ul.lista-ul--color
@@ -112,7 +112,7 @@
       .py-4.py-md-5(titulo="Normativa ICA buenas prácticas agrícolas" :icono="require('@/assets/curso/images/tema1/ico_3.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Normativa ICA  buenas prácticas agrícolas
+              h4 Normativa ICA  buenas prácticas agrícolas
               .row.justify-content-center.align-items-center.mt-5
                 .col-lg-12
                   ul.lista-ul--color
@@ -131,7 +131,7 @@
       .py-4.py-md-5(titulo="Normatividad ICA producción pecuaria" :icono="require('@/assets/curso/images/tema1/ico_4.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Normatividad ICA producción pecuaria
+              h4 Normatividad ICA producción pecuaria
               .row.justify-content-center.align-items-center.mt-5
                 .col-lg-12
                   ul.lista-ul--color
@@ -145,12 +145,12 @@
         
           .col-md-4
             figure
-              img(src='@/assets/curso/images/tema1/img_8.png'  alt='')
+              img(src='@/assets/curso/images/tema1/img_9.png'  alt='')
 
       .py-4.py-md-5(titulo="Sello Ambiental" :icono="require('@/assets/curso/images/tema1/ico_5.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Sello Ambiental
+              h4 Sello Ambiental
               .row.justify-content-center.align-items-center.mt-5
                 .col-lg-12
                   ul.lista-ul--color
@@ -167,7 +167,7 @@
       .py-4.py-md-5(titulo="Sello Alimento Ecológico" :icono="require('@/assets/curso/images/tema1/ico_6.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            h3 Sello Alimento Ecológico
+              h4 Sello Alimento Ecológico
               .row.justify-content-center.align-items-center.mt-5
                 .col-lg-12
                   ul.lista-ul--color
@@ -181,9 +181,9 @@
               img(src='@/assets/curso/images/tema1/img_11.svg'  alt='')
       
     .row.justify-content-center.align-items-star
-      .col-lg-6.mb-3(data-aos="fade-left") 
+      .col-lg-6.mb-3(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema1/img_12.png'  alt='')
-      .col-lg-6(data-aos="fade")
+      .col-lg-6(data-aos="fade-left") 
         p.mb-3 Además de las normas que regulan los aspectos de certificación de las unidades productivas agropecuarias, también tienen, como requisito, el cumplimiento de todos y cada uno de los requerimientos legales según el tipo de explotación.
         
         .cajon.color-custom-5.p-4   
@@ -194,49 +194,51 @@
       .col-lg-3.mb-0(data-aos="fade-right")
         p.mb-3 Algunos de los temas normativos que se deben tener en cuenta para la implementación de procesos productivos certificados son los siguientes: 
 
-      .col-lg-9
+    
+
+      .col-lg-9(data-aos="fade-left") 
         SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta_white-1.p-4
+          .tarjeta_white-1.p-4.h-100
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto        
               .col-md-10.py-3
-                h3.text-center.mb-3  Protección ambiental y de los recursos naturales
+                h5.text-center.mb-3  Protección ambiental y de los recursos naturales
                 p.text-center Decreto 2372 de 2010 – Ley 1729 de 2002 – Ley 99 de 1993 – Ley 599 de 2000.
-          .tarjeta_white-1.p-4
+          .tarjeta_white-1.p-4.h-100
             .row.justify-content-center
               .col-md-5.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto         
               .col-md-10.py-3
-                h3.text-center.mb-3  Usos del suelo y ordenamiento territorial 
+                h5.text-center.mb-3  Usos del suelo y ordenamiento territorial 
                 p.text-center Ley 388 de 1997 – ley 902 de 2004 – Decreto 2811 de 1974 - Ley 1454 de 2011 – Ley 2 de 1959.
-          .tarjeta_white-1.p-4
+          .tarjeta_white-1.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto          
               .col-md-10.py-3
-                h3.text-center.mb-3  Cuidado y protección del agua
+                h5.text-center.mb-3  Cuidado y protección del agua
                 p.text-center.px-2.px-md-0 Decreto 2811 de 1974 – Ley 99 de 1993 – Ley 142 de 1994 – Ley 373 de 1997 – Decreto 475 de 1998 – Decreto 1541 de 1978.
-          .tarjeta_white-1.p-4
+          .tarjeta_white-1.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto        
               .col-md-10.py-3
-                h3.text-center.mb-3  Disposición de residuos sólidos
+                h5.text-center.mb-3  Disposición de residuos sólidos
                 p.text-center Resolución 2309 de 1986 – Resolución 541 de 1994 – Conpes 2750 1994 – Decreto 605 1996 – Ley 430 de 1998 – Decreto 1713 de 2002. 
-          .tarjeta_white-1.p-4
+          .tarjeta_white-1.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto         
               .col-md-10.py-3
-                h3.mb-3.text-center Seguridad y salud en el trabajo
+                h5.mb-3.text-center Seguridad y salud en el trabajo
                 p.text-center Resolución 0312 de 2019 – Ley 1010 de 2016 – Resolución 1401 de 2007 – Resolución 2346 de 2007 – Resolución 1409 de 2012. 
-          .tarjeta_white-1.p-4
+          .tarjeta_white-1.p-4.h-100
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto         
               .col-md-10.py-3
-                h3.mb-3.text-center Legislación laboral
+                h5.mb-3.text-center Legislación laboral
                 p.text-center Ley 1610 de 2013 – Ley 1562 de 2012 – Decreto 2663 de 1950 – Decreto 1072 de 2015.
 
     Separador
@@ -245,19 +247,19 @@
       .h2 1.2  Estándares de certificación
 
     .row.justify-content-center.align-items-star
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="fade-right")
         p.mb-0 Los estándares de certificación corresponden a los requisitos, normas o criterios que se exigen a la empresa para la obtención de determinado sello o garantía, el cual es otorgado por un tercero que recibe el nombre de entidad certificadora. Para la obtención de la certificación es necesario un proceso de auditoría externa que evalúa si efectivamente la organización cumple con las disposiciones del estándar seleccionado, el cual tiene, además, una estrecha relación con la normatividad local vigente. 
 
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="zoom-in-up")
         img(src='@/assets/curso/images/tema1/img_13.svg')
 
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3(data-aos="fade-left") 
         .jumbotron-1.p-5
           p.mb-5 Para la definición de los estándares que se deben tener en cuenta, al momento de obtener una certificación, la empresa y sus agentes responsables, deberán tener presente los siguientes aspectos y elementos:
 
     .row.justify-content-evenly.align-items-center.p-2
       .col-lg-4(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema1/img_14.png' alt='', style="width:500px; display:block; margin:auto 0;")
+        img(src='@/assets/curso/images/tema1/img_14.png' alt='', style="width:500px; display:block; margin:auto 0;").mb-5
       .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-left")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Tipo de organización' numero='1')
@@ -360,12 +362,12 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema1/ico_20.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img.mx-1(src="@/assets/curso/images/tema1/ico_20.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
                 .col.mb-3.mb-sm-0
                   h3.text-white Certificaciones Nacionales Internacionales
                   p.mb-1.text-white El siguiente PDF presenta las certificaciones nacionales e internacionales (obligatorias y voluntarias) de acuerdo con Analdex.
                 .col-md-auto
-                  a.boton.color-custom-6(:href="obtenerLink('downloads/Anexo_1_CertificacionesNacionalesInternacionales.pdf')" target="_blank")
+                  a.boton.color-custom-7(:href="obtenerLink('downloads/Anexo_1_CertificacionesNacionalesInternacionales.pdf')" target="_blank")
                     span Descargar
                     .row
                       .col-auto

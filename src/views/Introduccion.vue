@@ -12,7 +12,7 @@
     p.mb-5 Le damos la bienvenida al estudio del componente formativo  #[span.color-text <b> “Planeación de procesos de certificación de explotaciones agropecuarias” </b>]; para comenzar, se invita a observar con atención el video que se muestra a continuación. #[span.color-text <b> ¡Adelante! </b>]
     
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pIWKv-NJMoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     

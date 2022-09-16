@@ -1,3 +1,43 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 55%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 41%
+    right: 70%
+  &-3
+    animation: float1 5.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 18%
+  &-4
+    animation: float1 7.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 30%
+  &-5
+    animation: rotation 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    right: 3%
+
+@keyframes rotation
+  from 
+    transform: rotate(0deg)
+  to 
+    transform: rotate(359deg)
+ 
+@keyframes float1
+  0%
+    transform: translateY(70px)
+
+  100%
+    transform: translateY(0px)
+
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
   color: #000
 
@@ -26,7 +66,7 @@
 
 .cajon
   width: auto
-  z-index: 1
+  z-index: 0
   margin-top: 47px
 
 .cajon-1
@@ -48,12 +88,14 @@
 		background-color:  #A3314F
 
 .color-custom-1
-	background-color: #FFDFE7
+	background-color:  #FFF2F5
 	&::before
 		background-color:  #A3314F
 
 .color-custom-2
   background-color: #A3314F
+  box-shadow: 2px 4px 8px #cdcdcd
+
 
 .color-custom-3
 	background-color: #CED371
@@ -71,7 +113,10 @@
 		background-color:#A3314F
 
 .color-custom-6
-	background-color: #FFEEF6
+	background-color: #FFF1F4
+
+.color-custom-7
+	background-color: #FFB500
 	&::before
 		background-color:#A3314F
 
@@ -108,6 +153,7 @@
   background-image: url("../assets/curso/images/tema3/back_ico_1.svg") !important
   background-repeat: no-repeat 
   z-index: 1 !important
+  box-shadow: 2px 4px 8px #cdcdcd
  
 .bg-color-8
   background-image: url("../assets/curso/images/tema3/back_ico_2.svg") !important
@@ -125,12 +171,23 @@
   z-index: 1 !important
 
 .bg_grad-01
-  background-color: #DEC6CC
+  background-color: #EDDCE1
   background-repeat: no-repeat
   background-size: cover
+  @media (max-width: 412px)
+    margin-left: -8px !important
+    background-repeat: no-repeat
+    background-size: cover
+    width: 350px
   @media (max-width: 992px)
     width: 390px
     margin-left: -24px
+.tp
+  height: 10% !important
+
+.tableContainer  
+  height: 10% !important
+
 
 .aling
   justify-content: center
@@ -199,13 +256,52 @@
 .jumbotron-9
   background-color: #D6D8B8
 
+.jumbotron-10
+  background-image: url("../assets/curso/images/tema3/1.svg") 
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 412px)
+    background-repeat: no-repeat
+    background-size: 100%
+    height: 750px !important
+    
+
+
+.jumbotron-11
+  background-image: url("../assets/curso/images/tema3/2.svg") 
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 412px)
+    width: 390px
+    margin-left: -15px
+    padding: 10px
+    margin-top: -320px !important
+
+.jumbotron-12
+  background-image: url("../assets/curso/images/tema3/3.svg") 
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 412px)
+    width: 390px
+    margin-left: -15px
+    padding: 10px
+
+.jumbotron-13
+  background-image: url("../assets/curso/images/tema3/4.svg") 
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 412px)
+    width: 390px
+    margin-left: -15px
+    padding: 10px
+
+.horizontal-scroll
+    align-items: stretch!important
+
 .tarjeta_white-1
   background-color: white
-  width: 360px
-  height: 400px
-  -webkit-box-shadow: 1px 8px 21px -3px rgba(179,179,179,1)
-  -moz-box-shadow: 1px 8px 21px -3px rgba(179,179,179,1)
-  box-shadow: 1px 8px 21px -3px rgba(179,179,179,1)
+  z-index: 2
+  box-shadow: 5px 10px 21px -3px rgba(179,179,179,1)
   border-top-left-radius: 20px
   border-top-right-radius: 20px
   border-bottom-left-radius: 20px
@@ -213,10 +309,6 @@
 
 .tarjeta_white-2
   background-color: white
-  width: 360px
-  height: 300px
-  -webkit-box-shadow: 1px 8px 21px -3px rgba(179,179,179,1)
-  -moz-box-shadow: 1px 8px 21px -3px rgba(179,179,179,1)
   box-shadow: 1px 8px 21px -3px rgba(179,179,179,1)
   border-top-left-radius: 20px
   border-top-right-radius: 20px
@@ -226,7 +318,7 @@
 .tarjeta_grey-1
   background-color: #B0C0D2
   width: 300px
-  height: 400px
+  box-shadow: 2px 4px 8px #cdcdcd
   border-top-left-radius: 20px
   border-top-right-radius: 20px
   border-bottom-left-radius: 20px
@@ -269,6 +361,18 @@
 .slyder-a__tipo-a .slyder-a__btn--sigt 
   transform: translateY(-50%) rotate(-90deg)
   right: -5px
+
+
+.slyder-a__bullets__item--active 
+  background-color: #9A9A9A
+  border-color: #9A9A9A
+  opacity: 1
+
+.slyder-a__bullets__item:hover 
+  opacity: 1
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3)
+  border-color: #DCDCDC
+
 
 .horizontal-scroll
   align-items: stretch!important
@@ -336,9 +440,13 @@
 .th-3
   background-color: #FFFF
 
-td, th 
-  border: 1px solid #e8e8e8
-  padding: 2.75em
   
 .bt
   border-top: 15px solid #A3314F
+  width: 800px
+
+.text
+  font-size: 13px
+
+.text-1
+  font-size: 16px
