@@ -193,53 +193,50 @@
     .row.justify-content-center.align-items-center.mt-3
       .col-lg-3.mb-0(data-aos="fade-right")
         p.mb-3 Algunos de los temas normativos que se deben tener en cuenta para la implementación de procesos productivos certificados son los siguientes: 
-
-    
-
       .col-lg-9(data-aos="fade-left") 
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta_white-1.p-4.h-100
-            .row.justify-content-center
-              .col-md-6.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto        
-              .col-md-10.py-3
-                h5.text-center.mb-3  Protección ambiental y de los recursos naturales
-                p.text-center Decreto 2372 de 2010 – Ley 1729 de 2002 – Ley 99 de 1993 – Ley 599 de 2000.
-          .tarjeta_white-1.p-4.h-100
-            .row.justify-content-center
-              .col-md-5.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto         
-              .col-md-10.py-3
-                h5.text-center.mb-3  Usos del suelo y ordenamiento territorial 
-                p.text-center Ley 388 de 1997 – ley 902 de 2004 – Decreto 2811 de 1974 - Ley 1454 de 2011 – Ley 2 de 1959.
-          .tarjeta_white-1.p-4.h-100
-            .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto          
-              .col-md-10.py-3
-                h5.text-center.mb-3  Cuidado y protección del agua
-                p.text-center.px-2.px-md-0 Decreto 2811 de 1974 – Ley 99 de 1993 – Ley 142 de 1994 – Ley 373 de 1997 – Decreto 475 de 1998 – Decreto 1541 de 1978.
-          .tarjeta_white-1.p-4.h-100
-            .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto        
-              .col-md-10.py-3
-                h5.text-center.mb-3  Disposición de residuos sólidos
-                p.text-center Resolución 2309 de 1986 – Resolución 541 de 1994 – Conpes 2750 1994 – Decreto 605 1996 – Ley 430 de 1998 – Decreto 1713 de 2002. 
-          .tarjeta_white-1.p-4.h-100
-            .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto         
-              .col-md-10.py-3
-                h5.mb-3.text-center Seguridad y salud en el trabajo
-                p.text-center Resolución 0312 de 2019 – Ley 1010 de 2016 – Resolución 1401 de 2007 – Resolución 2346 de 2007 – Resolución 1409 de 2012. 
-          .tarjeta_white-1.p-4.h-100
-            .row.justify-content-center
-              .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema1/ico_7.svg' alt='imagen relacionada' style='width:80px').mx-auto         
-              .col-md-10.py-3
-                h5.mb-3.text-center Legislación laboral
-                p.text-center Ley 1610 de 2013 – Ley 1562 de 2012 – Decreto 2663 de 1950 – Decreto 1072 de 2015.
+        SlyderF.mb-5.p-3(columnas="col-lg-6 col-xl-6")
+          .tarjeta_white-1.p-4
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/images/tema1/ico_7.svg' alt='AvatarTop')
+            h4.text-center Protección ambiental y de los recursos naturales
+            p.text-center.text-small.mb-0 Decreto 2372 de 2010 – Ley 1729 de 2002 – Ley 99 de 1993 – Ley 599 de 2000.  
+
+          .tarjeta_white-1.p-4
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/images/tema1/ico_8.svg' alt='AvatarTop')
+            h4.text-center Usos del suelo y ordenamiento territorial 
+            p.text-center.text-small.mb-0 Ley 388 de 1997 – ley 902 de 2004 – Decreto 2811 de 1974 - Ley 1454 de 2011 – Ley 2 de 1959.
+          
+          .tarjeta_white-1.p-4
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/images/tema1/ico_9.svg' alt='AvatarTop')
+            h4.text-center Cuidado y protección del agua
+            p.text-center.text-small.mb-1  Decreto 2811 de 1974 – Ley 99 de 1993 – Ley 142 de 1994 – Ley 373 de 1997 – Decreto 475 de 1998 – Decreto 1541 de 1978.
+
+          .tarjeta_white-1.p-4
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/images/tema1/ico_10.svg' alt='AvatarTop')
+            h4.text-center Disposición de residuos sólidos
+            p.text-center.text-small.mb-1  Resolución 2309 de 1986 – Resolución 541 de 1994 – Conpes 2750 1994 – Decreto 605 1996 – Ley 430 de 1998 – Decreto 1713 de 2002. 
+
+          .tarjeta_white-1.p-4
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/images/tema1/ico_11.svg' alt='AvatarTop')
+            h4.text-center Seguridad y salud en el trabajo
+            p.text-center.text-small.mb-4 Resolución 0312 de 2019 – Ley 1010 de 2016 – Resolución 1401 de 2007 – Resolución 2346 de 2007 – Resolución 1409 de 2012. 
+            
+          .tarjeta_white-1.p-4
+            .row.justify-content-center.mb-3
+              .col-5
+                img(src='@/assets/curso/images/tema1/ico_12.svg' alt='AvatarTop')
+            h4.text-center Legislación laboral
+            p.text-center.text-small.mb-4  Ley 1610 de 2013 – Ley 1562 de 2012 – Decreto 2663 de 1950 – Decreto 1072 de 2015.
+
 
     Separador
 

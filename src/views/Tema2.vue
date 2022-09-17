@@ -169,7 +169,7 @@
 
     p.mb-3 En el siguiente ejemplo se presenta la lista de chequeo que se aplica a predios productores de carne de bovinos y bufalinos del Instituto Colombiano Agropecuario - ICA.
 
-    .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
+    .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-star.p-3
           .col-lg-4
@@ -218,43 +218,44 @@
       .col-lg-3.mb-0(data-aos="fade-right")
         p.mb-3 Por medio de la adopción de los programas para la administración de las unidades agropecuarias es posible, entre otras cosas:
       .col-lg-9(data-aos="fade-left")
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta_white-2.p-4.h-100
+        SlyderF.mb-5.p-3(columnas="col-lg-6 col-xl-6")
+          .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_9.svg' alt='imagen relacionada' style='width:100px').mx-auto        
               .col-md-10.py-3
-                p.text-center Controlar la maquinaria y los equipos. 
-          .tarjeta_white-2.p-4.h-100
+                p.text-center.text Controlar la maquinaria y los equipos. 
+          .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-5.mb-4.mb-md-3.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_10.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
-                p.text-center Gestionar la información climática.
-          .tarjeta_white-2.p-4.h-100
+                p.text-center.text Gestionar la información climática.
+          .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_11.svg' alt='imagen relacionada' style='width:100px').mx-auto          
               .col-md-10.py-3
-                p.text-center Gestionar el recurso humano.
-          .tarjeta_white-2.p-4.h-100
+                p.text-center.text Gestionar el recurso humano.
+          .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_12.svg' alt='imagen relacionada' style='width:100px').mx-auto        
               .col-md-10.py-3
-                p.text-center Controlar los inventarios y adquisiciones.
-          .tarjeta_white-2.p-4.h-100
+                p.text-center.text Controlar los inventarios y adquisiciones.
+          .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_13.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
                 p.text-center Controlar la producción y los costos.
-          .tarjeta_white-2.p-4.h-100
+          .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_14.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
-                p.text-center Controlar las labores culturales.  
+                p.text-center.mb-3 Controlar las labores culturales.  
+
     .row.justify-content-evenly.align-items-star.p-3
       .col-lg-6(data-aos="fade-right")
         img.mt-5(src='@/assets/curso/images/tema2/img_13.png').mb-3
@@ -640,13 +641,13 @@
             p.mb-5 En el caso de las explotaciones en las que se trabaja con muchos individuos de especie (peces, aves, ganado bovino) es recomendable seleccionar una muestra representativa para obtener una idea de lo que realmente ocurre al interior de la población.
 
     .row.justify-content-center.align-items-star
-      .col-lg-12.mb-3
+      .col-lg-12.mb-0
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span 
             h3 Indicadores
-    .row.justify-content-evenly.align-items-star.p-3
+    .row.justify-content-evenly.align-items-star.m-top-1.p-3
       .col-12.col-lg-6.mb-4.p-0.p-md-6.mt-5(data-aos="fade-right") 
         p.mb-3 Otro de los aspectos que se debe tener en cuenta para el análisis e interpretación de la información relacionada con el funcionamiento de la unidad productiva es el de los indicadores. Un indicador es una característica observable, medible, cuantificable que, generalmente, es empleada para revisar la dinámica de una situación particular, es decir, los cambios que esta experimente en un espacio determinado de tiempo.     
         p.mb-0 En las unidades productivas agropecuarias los indicadores dan cuenta del grado de avance hacia el logro de los objetivos de la empresa o el cumplimiento de las metas establecidas. La siguiente tabla presenta un ejemplo.
@@ -681,45 +682,45 @@
       .col-lg-3.mb-0(data-aos="fade-right")
         p.mb-3 En vista de lo anterior es necesario que cumpla con los siguientes requisitos:
       .col-lg-9(data-aos="fade-left")
-        SlyderF(columnas="col-lg-6 col-xl-6")
+        SlyderF.px-5(columnas="col-lg-6 col-xl-6")
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_24.svg' alt='imagen relacionada' style='width:80px').mx-auto        
               .col-md-10.py-3
                 h3.text-center.mb-3  Objetividad
-                p.text-center No puede tener sesgos personales. Debe ser totalmente independiente.
+                p.text-center.text No puede tener sesgos personales. Debe ser totalmente independiente.
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_25.svg' alt='imagen relacionada' style='width:80px').mx-auto           
               .col-md-10.py-3
                 h3.text-center.mb-3  Medible objetivamente
-                p.text-center Se debe poder medir independientemente de la forma de pensar de quien lo hace
+                p.text-center.text  Se debe poder medir independientemente de la forma de pensar de quien lo hace
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_26.svg' alt='imagen relacionada' style='width:80px').mx-auto         
               .col-md-10.py-3
                 h3.text-center.mb-3  Relevancia
-                p.text-center.px-2.px-md-0 Debe reflejar una dimensión importante del logro del objetivo.
+                p.text-center.text Debe reflejar una dimensión importante del logro del objetivo.
           .tarjeta_white-2
             .row.justify-content-center
-              .col-md-6.mb-4.mb-md-2.p-0
+              .col-md-6.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_27.svg' alt='imagen relacionada' style='width:80px').mx-auto       
               .col-md-9.py-3
-                h3.text-center.text-1 Aporte marginal
+                h3.text-center.text  Aporte marginal
                 p.text-center.text Siempre debe aportar información relevante independientemente de si existen indicadores similares.
           .tarjeta_white-2
             .row.justify-content-center
-              .col-md-6.mb-4.mb-md-2.p-0
+              .col-md-6.p-0
                 img.mt-4(src='@/assets/curso/images/tema2/ico_28.svg' alt='imagen relacionada' style='width:80px').mx-auto           
               .col-md-10.py-3
                 h3.mb-4.text-center Mensaje
-                p.text-center Elemento a transmitir.
+                p.text-center.text  Elemento a transmitir.
 
 
-    .row.justify-content-evenly.align-items-star.mt-3
+    .row.justify-content-evenly.align-items-star.mt-3.p-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         .row.mb-5.ps-2(data-aos="zoom-in-down")
           .col-lg-6.bg-color-6.px-4.py-4
@@ -777,7 +778,7 @@
     #t_2_5.titulo-segundo
       .h2 2.5 Diagnóstico
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.m-top-1.mb-5.p-3
       .col-12.col-lg-6.mb-4.p-0(data-aos="fade-right") 
 
         p.mt-5 El diagnóstico es el documento que recopila el análisis del sistema productivo, sus características, las condiciones del predio y los demás factores que inciden en la productividad y en la calidad con la que se realizan los procesos internos. Para la certificación es fundamental contar con un buen diagnóstico ya que a partir de lo que se consigne allí se definirán los objetivos, metas, actividades e indicadores que orientarán el trabajo en la empresa agropecuaria en función del cumplimiento de los estándares seleccionados.     
