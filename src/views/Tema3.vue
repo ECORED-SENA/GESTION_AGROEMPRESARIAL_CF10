@@ -93,27 +93,28 @@
     
     p.mb-3 Se invita a identificar en el siguiente esquema, la forma en que se configuran el objetivo general y los específicos para un programa de certificación en Buenas Prácticas Agrícolas - BPA:
 
-    .row.align-items-center.justify-content-center.p-4
+    .row.align-items-center.justify-content-center
       .col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
           h5 Figura 4.
           span <i>Objetivo general y objetivos específicos en un programa de certificación</i>
 
-    .row.justify-content-center
+    .row.justify-content-space-around.m-top-1.ps-1
       .col-lg-3.lg-0
-        .jumbotron-10.p-5
+        .jumbotron-10.p-4
           .crd_container__body
-            .row.align-items-center.justify-content-center
+            .row.align-items-center.justify-content-center.p-3.px-2
               .col-5.col-lg-5
-                img.my-5(src='@/assets/curso/images/tema3/ico_9.svg'  alt='')
+                img.my-3.mt-5(src='@/assets/curso/images/tema3/ico_9.svg'  alt='')
               .col-lg-7
                 h5.text-white.mb-0 Objetivo general
               .row.align-items-center.justify-content-center.p-0
-                p.text-white.text Obtener la certificación en BPA bajo la Resolución ICA 082394 de 2020 en cultivo de aguacate hass en la finca La Fortuna del municipio de La Palma.
+                .col-5.col-lg-12
+                  p.text-white.mb-2 Obtener la certificación en BPA bajo la Resolución ICA 082394 de 2020 en cultivo de aguacate hass en la finca La Fortuna del municipio de La Palma.
       .col-lg-3.lg-0
-        .jumbotron-11.p-5
+        .jumbotron-11.p-4
           .crd_container__body
-            .row.align-items-center.justify-content-center
+            .row.align-items-center.justify-content-center.p-3.px-2
               .col-5.col-lg-5
                 img.my-5(src='@/assets/curso/images/tema3/ico_10.svg'  alt='')
               .col-lg-7
@@ -121,25 +122,25 @@
               .row.align-items-center.justify-content-center.p-2
                 p.text-white.mb-5 Realizar un diagnóstico general de la finca La Fortuna.
       .col-lg-3.lg-0
-        .jumbotron-12.p-5
+        .jumbotron-12.p-4
           .crd_container__body
-            .row.align-items-center.justify-content-center
+            .row.align-items-center.justify-content-center.p-3.px-2
               .col-5.col-lg-5
-                img.my-5(src='@/assets/curso/images/tema3/ico_11.svg'  alt='')
+                img.my-4.mt-5(src='@/assets/curso/images/tema3/ico_11.svg'  alt='')
               .col-lg-7
                 h5.text-white.mb-0 Objetivo específico 02
               .row.align-items-center.justify-content-center
-                p.text-white.text.mb-3 Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
+                p.text-white Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
       .col-lg-3.lg-0
-        .jumbotron-13.p-5
+        .jumbotron-13.p-4
           .crd_container__body
-            .row.align-items-center.justify-content-center
+            .row.align-items-center.justify-content-center.p-3.px-2
               .col-5.col-lg-5
-                img.my-5(src='@/assets/curso/images/tema3/ico_12.svg'  alt='')
+                img.my-3.mt-5(src='@/assets/curso/images/tema3/ico_12.svg'  alt='')
               .col-lg-7
                 h5.text-white.mb-0 Objetivo específico 03
-              .row.align-items-center.justify-content-center.p-2
-                p.text-white.text.mb-0 Fortalecer las capacidades del personal vinculado a la finca La Fortuna en lo relacionado con los principios de las BPA.
+              .row.align-items-center.justify-content-center.p-1
+                p.text-white Fortalecer las capacidades del personal vinculado a la finca La Fortuna en lo relacionado con los principios de las BPA.
 
 
 

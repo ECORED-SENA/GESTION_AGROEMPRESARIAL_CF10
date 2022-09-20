@@ -224,29 +224,29 @@
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_9.svg' alt='imagen relacionada' style='width:100px').mx-auto        
               .col-md-10.py-3
-                p.text-center.text Controlar la maquinaria y los equipos. 
+                p.text-center Controlar la maquinaria y los equipos. 
           .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-5.mb-4.mb-md-3.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_10.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
-                p.text-center.text Gestionar la información climática.
+                p.text-center.mb-4 Gestionar la información climática.
           .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_11.svg' alt='imagen relacionada' style='width:100px').mx-auto          
               .col-md-10.py-3
-                p.text-center.text Gestionar el recurso humano.
+                p.text-center.mb-4 Gestionar el recurso humano.
           .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_12.svg' alt='imagen relacionada' style='width:100px').mx-auto        
+                img.mt-1(src='@/assets/curso/images/tema2/ico_12.svg' alt='imagen relacionada' style='width:100px').mx-auto        
               .col-md-10.py-3
-                p.text-center.text Controlar los inventarios y adquisiciones.
+                p.text-center Controlar los inventarios y adquisiciones.
           .tarjeta_white-2.p-4
             .row.justify-content-center
               .col-md-10.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_13.svg' alt='imagen relacionada' style='width:100px').mx-auto         
+                img.mt-1(src='@/assets/curso/images/tema2/ico_13.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
                 p.text-center Controlar la producción y los costos.
           .tarjeta_white-2.p-4
@@ -254,7 +254,7 @@
               .col-md-10.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_14.svg' alt='imagen relacionada' style='width:100px').mx-auto         
               .col-md-10.py-3
-                p.text-center.mb-3 Controlar las labores culturales.  
+                p.text-center.mb-4 Controlar las labores culturales.  
 
     .row.justify-content-evenly.align-items-star.p-3
       .col-lg-6(data-aos="fade-right")
@@ -686,38 +686,38 @@
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_24.svg' alt='imagen relacionada' style='width:80px').mx-auto        
+                img.mt-4(src='@/assets/curso/images/tema2/ico_24.svg' alt='imagen relacionada' style='width:80px').mx-auto        
               .col-md-10.py-3
                 h3.text-center.mb-3  Objetividad
-                p.text-center.text No puede tener sesgos personales. Debe ser totalmente independiente.
+                p.text-center.mb-4 No puede tener sesgos personales. Debe ser totalmente independiente.
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
                 img.mt-3(src='@/assets/curso/images/tema2/ico_25.svg' alt='imagen relacionada' style='width:80px').mx-auto           
               .col-md-10.py-3
                 h3.text-center.mb-3  Medible objetivamente
-                p.text-center.text  Se debe poder medir independientemente de la forma de pensar de quien lo hace
+                p.text-center Se debe poder medir independientemente de la forma de pensar de quien lo hace
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-2.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_26.svg' alt='imagen relacionada' style='width:80px').mx-auto         
+                img.mt-2(src='@/assets/curso/images/tema2/ico_26.svg' alt='imagen relacionada' style='width:80px').mx-auto         
               .col-md-10.py-3
                 h3.text-center.mb-3  Relevancia
-                p.text-center.text Debe reflejar una dimensión importante del logro del objetivo.
+                p.text-center.mb-5 Debe reflejar una dimensión importante del logro del objetivo.
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.p-0
-                img.mt-3(src='@/assets/curso/images/tema2/ico_27.svg' alt='imagen relacionada' style='width:80px').mx-auto       
+                img.mt-0(src='@/assets/curso/images/tema2/ico_27.svg' alt='imagen relacionada' style='width:80px').mx-auto       
               .col-md-9.py-3
-                h3.text-center.text  Aporte marginal
-                p.text-center.text Siempre debe aportar información relevante independientemente de si existen indicadores similares.
+                h3.text-center  Aporte marginal
+                p.text-center Siempre debe aportar información relevante independientemente de si existen indicadores similares.
           .tarjeta_white-2
             .row.justify-content-center
               .col-md-6.p-0
                 img.mt-4(src='@/assets/curso/images/tema2/ico_28.svg' alt='imagen relacionada' style='width:80px').mx-auto           
               .col-md-10.py-3
                 h3.mb-4.text-center Mensaje
-                p.text-center.text  Elemento a transmitir.
+                p.text-center.mb-5  Elemento a transmitir.
 
 
     .row.justify-content-evenly.align-items-star.mt-3.p-3
