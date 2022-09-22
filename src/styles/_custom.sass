@@ -241,27 +241,58 @@
 .m-top-1
   margin-top: -40px
 
+.m-top-2
+  margin-top: 20px
 
+
+.m-left
+  left: 50% !important 
+  @media (max-width: 992px)
+    width: 100%
+    margin-left: -434px
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: -134px
+
+.m-right
+  right: -40% !important
+  @media (max-width: 992px)
+    width: 100%
+    margin-left: -300px
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: -134px
+    
 .ps
   justify-content: space-between !important
 
 .ps-1
   justify-content: space-around !important
+
 .jumbotron
   background-color: #E2E2E2  
-  width: 800px
-  margin-inline-start: -90px
+  width: 700px
+  margin-inline-start: -40px
+  @media (max-width: 992px)
+    width: 100%
+    margin-left: -20px
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: 5px
+  @media (max-width: 576px)
+    width: 100%
+    margin-left: 2px
   @media (max-width: 412px)
     margin-top: -10px
     margin-left: 6px
     background-repeat: no-repeat
-    background-size: cover
-    width: 350px
-  @media (max-width: 397px)
+    width: 100% 
+  @media (max-width: 390px)
     margin-top: -10px
     background-repeat: no-repeat
     background-size: cover
-    width: 350px
+    width: 100% 
+
 
 .jumbotron-1
   background-color: #FCFCF5
@@ -351,10 +382,7 @@
   display: flex 
   flex-direction: column  
   align-items: center 
-  @media (max-width: 576px)
-    width: 100%
-    margin-left: 2px
-  
+
 
   &::before
     content: ""
@@ -394,6 +422,19 @@
     background-size: cover
     height: 750px !important
     width: 100% !important
+    margin-bottom: 50px !important
+    font-size: 16px !important
+    text-align: center !important
+
+
+  @media (max-width: 992px)
+    position: relative
+    display: flex 
+    flex-direction: column  
+    align-items: center 
+    padding: 15px !important
+    font-size: 10px
+
 
   
 .jumbotron-11
@@ -444,6 +485,17 @@
     width: 100% !important
     margin-top: -360px
     margin-top: -100px !important
+    font-size: 16px !important
+    text-align: center !important
+
+  @media (max-width: 992px)
+    position: relative
+    display: flex 
+    flex-direction: column  
+    align-items: center
+    padding: 15px !important
+    font-size: 10px
+
 
 .jumbotron-12
   position: relative
@@ -492,6 +544,16 @@
     height: 750px !important
     width: 100% !important
     margin-top: -100px !important
+    font-size: 16px !important
+    text-align: center !important
+
+  @media (max-width: 992px)
+    position: relative
+    display: flex 
+    flex-direction: colum
+    padding: 20px !important
+    font-size: 10px
+
 
 .jumbotron-13
   position: relative
@@ -535,10 +597,20 @@
 
   @media (max-width: 768px)
     background-repeat: no-repeat
-    background-size: cover
+    background-size: cover 
     height: 750px !important
     width: 100% !important
     margin-top: -100px !important
+    font-size: 16px !important
+    text-align: center !important
+    
+  @media (max-width: 992px)
+    position: relative
+    display: flex 
+    flex-direction: colum
+    padding: 15px !important
+    font-size: 10px
+
 
 .horizontal-scroll
     align-items: stretch!important

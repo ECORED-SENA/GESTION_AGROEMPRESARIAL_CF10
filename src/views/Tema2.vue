@@ -188,7 +188,7 @@
                 h4.mb-5 Ejemplo de lista de chequeo - observaciones
                 p.mb-3 En la parte final de la lista de chequeo se realiza un cálculo inicial de los resultados obtenidos, con lo cual es posible indicar si se cumplió o no con los requisitos establecidos. Igualmente, en esta parte del documento se deja un espacio para observaciones, el que da la posibilidad de registrar eventos o situaciones que se hayan presentado en el ejercicio de captura de información y que, eventualmente, pueden enriquecer el análisis de la información.  
               .col-lg-8
-              img(src="@/assets/curso/images/tema2/img_11.svg").mb-3
+                img(src="@/assets/curso/images/tema2/img_11.svg").mb-3
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
@@ -354,7 +354,7 @@
         p.mb-3 La importancia de la gestión de información radica en que la toma de decisiones, la identificación de oportunidades de mejora y la búsqueda de alternativas de solución a las problemáticas en la operación, requieren de información confiable y verificable.        
         .jumbotron-8.p-4    
           .row.mb-5.ps-2(data-aos="zoom-in-down")
-            .col-lg-6.bg-color-5.px-4.py-4
+            .col-lg-9.bg-color-5.px-4.py-4
               .h4.mb-0 Análisis e interpretación
             p.mb-0 Pese a contar con herramientas que facilitan la captura y el acopio de información, en muchas ocasiones los empresarios del campo se quedan cortos frente al análisis e interpretación de los resultados obtenidos, lo cual sigue siendo una limitante en muchos sistemas productivos, donde la falta de conocimiento sobre el procesamiento de los datos o la falta de herramientas para su manejo se ha constituido en una problemática que dificulta la gestión empresarial. 
 
@@ -768,7 +768,7 @@
     .row.justify-content-evenly.align-items-star.mt-3.p-3
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-left")
         .row.mb-5.ps-2(data-aos="zoom-in-down")
-          .col-lg-6.bg-color-6.px-4.py-4
+          .col-lg-10.bg-color-6.px-4.py-4
             .h4.mb-0 Tipos de indicadores
 
           p.mb-3 Los indicadores se pueden agrupar de diversas maneras, pero la forma más aceptada es la que los organiza de acuerdo con lo que se desea evaluar. Con esta clasificación se obtienen indicadores que miden los impactos de las intervenciones o las actividades, otros que evalúan las gestiones realizadas, otros que se centran en el producto obtenido, los procesos o los resultados.  

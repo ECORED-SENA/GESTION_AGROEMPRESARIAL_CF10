@@ -40,7 +40,7 @@
       .col-lg-5(data-aos="fade-right") 
         p.mb-3 Es importante señalar dentro del programa de certificación las razones por las cuales es necesario, para la empresa agropecuaria, desarrollar esta iniciativa y qué se espera conseguir con su implementación. Cada una de estas razones debe estar articulada con los objetivos estratégicos de la empresa, con su misión y su visión por lo que es necesario que el equipo de trabajo observe con detenimiento estos elementos antes de iniciar con la construcción del programa.
         p.mb-3 La justificación debe responder básicamente a las siguientes preguntas:
-        .col-lg-5.bg-color-7.px-5.py-3
+        .col-lg-6.bg-color-7.px-5.py-3
           .h4.mb-0 Justificación
         .jumbotron-3.p-4.mx-2.mt-0
           ul.lista-ul--color
@@ -104,10 +104,10 @@
         .jumbotron-10.p-4
           .crd_container__body
             .row.align-items-center.justify-content-center.p-3.px-2
-              .col-5.col-lg-5
+              .col-5.col-lg-5.col-md-4
                 img.my-3.mt-5(src='@/assets/curso/images/tema3/ico_9.svg'  alt='')
               .col-lg-7
-                h5.text-white.mb-0 Objetivo general
+                h5.text-white.mt-3.mb-0 Objetivo general
               .row.align-items-center.justify-content-center.p-0
                 .col-12.col-5.col-lg-12
                   p.text-white.mb-2 Obtener la certificación en BPA bajo la Resolución ICA 082394 de 2020 en cultivo de aguacate hass en la finca La Fortuna del municipio de La Palma.
@@ -115,10 +115,10 @@
         .jumbotron-11.p-4
           .crd_container__body
             .row.align-items-center.justify-content-center.p-3.px-2
-              .col-5.col-lg-5
+              .col-5.col-lg-5.col-md-4
                 img.my-5(src='@/assets/curso/images/tema3/ico_10.svg'  alt='')
               .col-lg-7
-                h5.text-white.mb-1 Objetivo específico 01
+                h5.text-white.mt-3.mb-1 Objetivo específico 01
               .row.align-items-center.justify-content-center.p-2
                 p.text-white.mb-5 Realizar un diagnóstico general de la finca La Fortuna.
 
@@ -126,10 +126,10 @@
         .jumbotron-12.p-4
           .crd_container__body
             .row.align-items-center.justify-content-center.p-3.px-2
-              .col-5.col-lg-5
+              .col-5.col-lg-5.col-md-4
                 img.my-4.mt-5(src='@/assets/curso/images/tema3/ico_11.svg'  alt='')
               .col-lg-7
-                h5.text-white.my-4 Objetivo específico 02
+                h5.text-white.mt-4 Objetivo específico 02
               .row.align-items-center.justify-content-center
                 p.text-white Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
 
@@ -137,10 +137,10 @@
         .jumbotron-13.p-4
           .crd_container__body
             .row.align-items-center.justify-content-center.p-3.px-2
-              .col-5.col-lg-5
+              .col-5.col-lg-5.col-md-4
                 img.my-3.mt-5(src='@/assets/curso/images/tema3/ico_12.svg'  alt='')
               .col-lg-7
-                h5.text-white.mb-0 Objetivo específico 03
+                h5.text-white.mt-4.mb-0 Objetivo específico 03
               .row.align-items-center.justify-content-center.p-1
                 p.text-white Fortalecer las capacidades del personal vinculado a la finca La Fortuna en lo relacionado con los principios de las BPA.
 
@@ -411,7 +411,7 @@
             
         .jumbotron.p-4    
           .row.mb-2.ps-2(data-aos="zoom-in-down")
-            .col-lg-5.bg-color-8.px-2.py-4
+            .col-lg-7.bg-color-8.px-2.py-4
               .h4.mb-0 Análisis e interpretación
           p.mb-0 La gestión de recursos consiste, básicamente, en la identificación de los recursos que se necesitan para la implementación del programa de certificación, la planeación financiera y la búsqueda de la manera más eficiente de utilizarlos. 
 

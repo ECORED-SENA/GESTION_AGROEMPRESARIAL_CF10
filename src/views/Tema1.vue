@@ -18,36 +18,36 @@
         img(src='@/assets/curso/images/tema1/img_1.png'  alt='')
 
     p.mb-5 Las siguientes, son generalidades que, sobre certificación de unidades agropecuarias, se deben tener en cuenta:
+    
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12.col-sm-12
+      .col-lg-12
+        .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
+          SlyderA(tipo="b")
+            .row.justify-content-center.align-items-star.p-3
+              .col-12.col-lg-4
+                h4.mb-5 Distinción del producto
+                p.mb-3 A través de los procesos de certificación se obtiene un sello que distingue a un producto de otros, lo cual se convierte en un elemento diferenciador que mejorará la confianza de los consumidores en los productos, permite mayores precios de venta y facilita el acceso a nuevos mercados, incluso, en ámbitos internacionales.
+              .col-12.col-lg-8
+                img(src="@/assets/curso/images/tema1/img_2.png").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Mejora profunda de los procesos
+                p.mb-3 Cuando se implementan procesos de certificación se obtiene una mejora sustancial en los procesos de manufactura debido al estricto seguimiento del que son objeto, lo cual reduce los costos de producción al procurar un uso eficiente de los recursos disponibles y una administración responsable del negocio agropecuario.
+              .col-lg-8
+                img(src="@/assets/curso/images/tema1/img_3.png").mb-3
 
-      .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
-        SlyderA(tipo="b")
-          .row.justify-content-center.align-items-star.p-3
-            .col-12.col-lg-4
-              h4.mb-5 Distinción del producto
-              p.mb-3 A través de los procesos de certificación se obtiene un sello que distingue a un producto de otros, lo cual se convierte en un elemento diferenciador que mejorará la confianza de los consumidores en los productos, permite mayores precios de venta y facilita el acceso a nuevos mercados, incluso, en ámbitos internacionales.
-            .col-12.col-lg-8
-              img(src="@/assets/curso/images/tema1/img_2.png").mb-3
-          .row.justify-content-center.align-items-star.p-3
-            .col-lg-4
-              h4.mb-5 Mejora profunda de los procesos
-              p.mb-3 Cuando se implementan procesos de certificación se obtiene una mejora sustancial en los procesos de manufactura debido al estricto seguimiento del que son objeto, lo cual reduce los costos de producción al procurar un uso eficiente de los recursos disponibles y una administración responsable del negocio agropecuario.
-            .col-lg-8
-              img(src="@/assets/curso/images/tema1/img_3.png").mb-3
-
-          .row.justify-content-center.align-items-star.p-3
-            .col-lg-4
-              h4.mb-5 Entes competentes
-              p.mb-3 En el ámbito nacional, Instituto Colombiano Agropecuario - ICA es el ente encargado de regular la actividad del sector y parte de sus funciones consiste en el establecimiento de los requisitos para la certificación de los predios en aspectos relacionados con las Buenas Prácticas Agrícolas (BPA), Buenas Prácticas Ganaderas (BPG), buenas prácticas acuícolas y granjas bioseguras. 
-            .col-lg-8
-              img(src="@/assets/curso/images/tema1/img_4.svg").mb-3
-          .row.justify-content-center.align-items-star.p-3
-            .col-lg-4
-              h4.mb-5 Certificaciones adicionales o complementarias
-              p.mb-3 Además de los requisitos establecidos por el ICA, las actividades productivas agropecuarias pueden obtener certificaciones adicionales a las que se accede de manera voluntaria, las cuales le confieren al producto un sello de calidad que lo acredita como depositario de ciertas características especiales.
-            .col-lg-8
-              img(src="@/assets/curso/images/tema1/img_5.png").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Entes competentes
+                p.mb-3 En el ámbito nacional, Instituto Colombiano Agropecuario - ICA es el ente encargado de regular la actividad del sector y parte de sus funciones consiste en el establecimiento de los requisitos para la certificación de los predios en aspectos relacionados con las Buenas Prácticas Agrícolas (BPA), Buenas Prácticas Ganaderas (BPG), buenas prácticas acuícolas y granjas bioseguras. 
+              .col-lg-8
+                img(src="@/assets/curso/images/tema1/img_4.svg").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Certificaciones adicionales o complementarias
+                p.mb-3 Además de los requisitos establecidos por el ICA, las actividades productivas agropecuarias pueden obtener certificaciones adicionales a las que se accede de manera voluntaria, las cuales le confieren al producto un sello de calidad que lo acredita como depositario de ciertas características especiales.
+              .col-lg-8
+                img(src="@/assets/curso/images/tema1/img_5.png").mb-3
 
     p.mb-5 Para las empresas en general, las certificaciones a las que pueden aspirar son: 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.mb-0.m-top.cs
