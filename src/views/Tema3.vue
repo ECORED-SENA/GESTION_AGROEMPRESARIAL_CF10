@@ -121,6 +121,7 @@
                 h5.text-white.mb-1 Objetivo específico 01
               .row.align-items-center.justify-content-center.p-2
                 p.text-white.mb-5 Realizar un diagnóstico general de la finca La Fortuna.
+
       .col-lg-3.lg-0
         .jumbotron-12.p-4
           .crd_container__body
@@ -131,6 +132,7 @@
                 h5.text-white.my-4 Objetivo específico 02
               .row.align-items-center.justify-content-center
                 p.text-white Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
+
       .col-lg-3.lg-0
         .jumbotron-13.p-4
           .crd_container__body
@@ -141,7 +143,6 @@
                 h5.text-white.mb-0 Objetivo específico 03
               .row.align-items-center.justify-content-center.p-1
                 p.text-white Fortalecer las capacidades del personal vinculado a la finca La Fortuna en lo relacionado con los principios de las BPA.
-
 
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
