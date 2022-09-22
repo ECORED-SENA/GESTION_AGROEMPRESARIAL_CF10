@@ -109,7 +109,7 @@
               .col-lg-7
                 h5.text-white.mb-0 Objetivo general
               .row.align-items-center.justify-content-center.p-0
-                .col-5.col-lg-12
+                .col-12.col-5.col-lg-12
                   p.text-white.mb-2 Obtener la certificación en BPA bajo la Resolución ICA 082394 de 2020 en cultivo de aguacate hass en la finca La Fortuna del municipio de La Palma.
       .col-lg-3.lg-0
         .jumbotron-11.p-4
@@ -128,7 +128,7 @@
               .col-5.col-lg-5
                 img.my-4.mt-5(src='@/assets/curso/images/tema3/ico_11.svg'  alt='')
               .col-lg-7
-                h5.text-white.mb-0 Objetivo específico 02
+                h5.text-white.my-4 Objetivo específico 02
               .row.align-items-center.justify-content-center
                 p.text-white Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
       .col-lg-3.lg-0

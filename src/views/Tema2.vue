@@ -70,9 +70,7 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-1.m-top.mb-0.cs
     .row.justify-content-center.align-items-center.my-3
       .col-lg-4.mb-0(data-aos="fade-right")
-        img(src="@/assets/curso/images/tema2/img_6.png", alt= "")
-
- 
+        img(src="@/assets/curso/images/tema2/img_6.png", alt= "") 
       .col-lg-8
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-6")(data-aos="zoom-in-down")
           .tarjeta-avatar
@@ -168,27 +166,29 @@
     p.mb-3 La lista de chequeo siempre debe llevar un encabezado en el cual se registra el tipo de formato, el sistema productivo, la fecha de la auditoría, la identificación del predio y su ubicación, los datos del propietario y el responsable del diligenciamiento. 
 
     p.mb-3 En el siguiente ejemplo se presenta la lista de chequeo que se aplica a predios productores de carne de bovinos y bufalinos del Instituto Colombiano Agropecuario - ICA.
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-11(data-aos="fade-left") 
+        .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
+          SlyderA(tipo="b")
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Ejemplo de encabezado de la lista de chequeo para auditoría de predios rurales
+              .col-lg-8
+                img(src="@/assets/curso/images/tema2/img_9.svg").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Ejemplo de cuerpo de lista de chequeo
+                p.mb-3 En el cuerpo de la lista de chequeo, siguiendo con el ejemplo anterior, se observan los diferentes criterios a evaluar y en los cuales se deberá indicar si la unidad productiva cumple o no cumple. En el caso de este formato en particular se agrega una columna en la que se indica si el aspecto evaluado es mayor (My), fundamental (F) o menor (Mn), porque al final del diligenciamiento esto permitirá ponderar los resultados, debido a que existen aspectos que tienen un mayor peso específico que otros.
+              .col-lg-8
+                img(src="@/assets/curso/images/tema2/img_10.svg").mb-3
 
-    .tarjeta.bg_grad-02.p-4.mb-5(data-aos="zoom-in-up")
-      SlyderA(tipo="b")
-        .row.justify-content-center.align-items-star.p-3
-          .col-lg-4
-            h4.mb-5 Ejemplo de encabezado de la lista de chequeo para auditoría de predios rurales
-          .col-lg-8
-            img(src="@/assets/curso/images/tema2/img_9.svg").mb-3
-        .row.justify-content-center.align-items-star.p-3
-          .col-lg-4
-            h4.mb-5 Ejemplo de cuerpo de lista de chequeo
-            p.mb-3 En el cuerpo de la lista de chequeo, siguiendo con el ejemplo anterior, se observan los diferentes criterios a evaluar y en los cuales se deberá indicar si la unidad productiva cumple o no cumple. En el caso de este formato en particular se agrega una columna en la que se indica si el aspecto evaluado es mayor (My), fundamental (F) o menor (Mn), porque al final del diligenciamiento esto permitirá ponderar los resultados, debido a que existen aspectos que tienen un mayor peso específico que otros.
-          .col-lg-8
-            img(src="@/assets/curso/images/tema2/img_10.svg").mb-3
-
-        .row.justify-content-center.align-items-star.p-3
-          .col-lg-4
-            h4.mb-5 Ejemplo de lista de chequeo - observaciones
-            p.mb-3 En la parte final de la lista de chequeo se realiza un cálculo inicial de los resultados obtenidos, con lo cual es posible indicar si se cumplió o no con los requisitos establecidos. Igualmente, en esta parte del documento se deja un espacio para observaciones, el que da la posibilidad de registrar eventos o situaciones que se hayan presentado en el ejercicio de captura de información y que, eventualmente, pueden enriquecer el análisis de la información.  
-          .col-lg-8
-           img(src="@/assets/curso/images/tema2/img_11.svg").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Ejemplo de lista de chequeo - observaciones
+                p.mb-3 En la parte final de la lista de chequeo se realiza un cálculo inicial de los resultados obtenidos, con lo cual es posible indicar si se cumplió o no con los requisitos establecidos. Igualmente, en esta parte del documento se deja un espacio para observaciones, el que da la posibilidad de registrar eventos o situaciones que se hayan presentado en el ejercicio de captura de información y que, eventualmente, pueden enriquecer el análisis de la información.  
+              .col-lg-8
+              img(src="@/assets/curso/images/tema2/img_11.svg").mb-3
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
 
@@ -296,7 +296,50 @@
       
     p.mb-3 Ahora, se presentan algunos de los programas y aplicativos tecnológicos diseñados para el agro que en Colombia, pese a las dificultades e inconvenientes de infraestructura, son usados en explotaciones con un alto componente empresarial: 
 
-    SlyderB.mb-5.color-slyder-b.px-5.py-5(:datos="datosSlyder")(data-aos="zoom-in-up")   
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-11(data-aos="fade-left") 
+        .tarjeta.bg_grad-03.mb-5.color-slyder-b.px-5.py-5(data-aos="zoom-in-up")
+          SlyderA(tipo="b")
+            .row.justify-content-between.align-items-center.p-3
+              .col-lg-4.lg-0
+                h4.mb-5 Suite ganadera
+                p.mb-3 Permite llevar el inventario ganadero, preñeces, natalidad, mortalidad, pesos, días de celo, fechas de matadero, inseminaciones, vacunaciones, índices de producción.
+              .col-lg-7.lg-0
+                img(src="@/assets/curso/images/tema2/img_15.svg").mb-3
+            .row.justify-content-between.align-items-center.p-3
+              .col-lg-4.lg-0
+                h4.mb-5 Sacfa Lite - Fedearroz
+                p.mb-3 Es un sistema de administración computarizado para fincas arroceras. Permite llevar registro de las actividades propias del cultivo, calcula indicadores y facilita el manejo inventarios y la obtención de la relación costo-beneficio. 
+              .col-lg-7.lg-0
+                img(src="@/assets/curso/images/tema2/img_16.svg").mb-3
+
+            .row.justify-content-between.align-items-center.p-3
+              .col-lg-4.lg-0
+                h4.mb-5 Sifa - Fedearroz
+                p.mb-3 Es un sistema administrativo útil en el control del proceso de siembra, gestión de insumos, maquinaria, costos e ingresos. Estudia el proceso de fertilización, ajustándolo por zonas y variedad, lo que facilita los cálculos de diagnóstico de absorción nutricional de la planta.  
+              .col-lg-7.lg-0
+                img(src="@/assets/curso/images/tema2/img_17.svg").mb-3
+
+            .row.justify-content-between.align-items-center.p-3
+              .col-lg-4.lg-0
+                h4.mb-5 Agro Win
+                p.mb-3 Es un software que se especializa en el manejo de cultivos perennes y transitorios. Facilita el registro de costos directos e indirectos, permitiendo la obtención de informes de costos totales de producción, entre otras funciones. Actualmente este es el más usado en el sector cafetero, aunque es de aplicación variada.  
+              .col-lg-7.lg-0
+                img(src="@/assets/curso/images/tema2/img_18.svg").mb-3
+
+            .row.justify-content-between.align-items-center.p-3
+              .col-lg-4.lg-0
+                h4.mb-5 El Gran Palmero
+                p.mb-3 Software especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.
+              .col-lg-7.lg-0
+                img(src="@/assets/curso/images/tema2/img_19.svg").mb-3
+
+            .row.justify-content-between.align-items-center.p-3
+              .col-lg-4.lg-0
+                h4.mb-5 Agri
+                p.mb-3 Es un software para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.
+              .col-lg-7.lg-0
+                img(src="@/assets/curso/images/tema2/img_20.svg").mb-3
 
     Separador
 
@@ -348,33 +391,35 @@
 
     p.mb-3 Así, a través del análisis de los datos es posible identificar tendencias, correlaciones, proporciones, dependencias, magnitudes y otra serie de condiciones que facilitan la observación de las variables que intervienen en el proceso productivo y su incidencia en los rendimientos de la empresa productiva; se sugiere observar el siguiente ejemplo:
 
-    .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
-      SlyderA(tipo="b")
-        .row.justify-content-center.align-items-star.p-3
-          .col-lg-4
-            h4.mb-5 Ejemplo: recolección simple
-            p.mb-3 En el recuadro (A), se presenta una serie de datos tal como se recolectó en campo. A primera vista no se identifican relaciones directas ni tendencias entre las variables “longitud promedio del tallo” y “gramos de fertilizante por planta”. 
-          .col-lg-8
-            img(src="@/assets/curso/images/tema2/img_23.svg").mb-3
-        .row.justify-content-center.align-items-star.p-3
-          .col-lg-4
-            h4.mb-5 Ejemplo: información ordenada
-            p.mb-3 En el recuadro (B), con solo ordenar la información de “longitud promedio del tallo” de mayor a menor, se observa que la variable “gramos de fertilizante por planta” adquiere una configuración similar, de mayor a menor, lo cual se convierte en un primer indicio de la relación que existe entre las dos variables.
-          .col-lg-8
-            img(src="@/assets/curso/images/tema2/img_24.svg").mb-3
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12(data-aos="fade-left")
+        .tarjeta.bg_grad-01.p-4.mb-5
+          SlyderA(tipo="b")
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Ejemplo: recolección simple
+                p.mb-3 En el recuadro (A), se presenta una serie de datos tal como se recolectó en campo. A primera vista no se identifican relaciones directas ni tendencias entre las variables “longitud promedio del tallo” y “gramos de fertilizante por planta”. 
+              .col-lg-8
+                img(src="@/assets/curso/images/tema2/img_23.svg").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Ejemplo: información ordenada
+                p.mb-3 En el recuadro (B), con solo ordenar la información de “longitud promedio del tallo” de mayor a menor, se observa que la variable “gramos de fertilizante por planta” adquiere una configuración similar, de mayor a menor, lo cual se convierte en un primer indicio de la relación que existe entre las dos variables.
+              .col-lg-8
+                img(src="@/assets/curso/images/tema2/img_24.svg").mb-3
 
-        .row.justify-content-center.align-items-star.p-3
-          .col-lg-4
-            h4.mb-5 Ejemplo: representaciones gráficas
-            p.mb-3 En el recuadro (C) se va un poco más allá y se inserta un gráfico elaborado con base en la información obtenida en campo, esto da una visión mucho más clara de la relación que existe entre las dos variables y con base en lo cual es posible concluir que cuanto más fertilizante se aplique a la planta, mayor longitud del tallo se va a tener. 
-          .col-lg-8
-            img(src="@/assets/curso/images/tema2/img_25.svg").mb-3
-        .row.justify-content-center.align-items-star.p-3
-          .col-lg-4
-            h4.mb-5 Visualización completa del ejemplo
-            p.mb-3 Aquí, observe en detalle los tres pasos mencionados y logre una comprensión amplia del proceso de observación de variables que intervienen en la producción: Recolección Simple (A), Información ordenada (B) y representaciones gráficas (C). 
-          .col-lg-8
-            img(src="@/assets/curso/images/tema2/img_26.svg").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Ejemplo: representaciones gráficas
+                p.mb-3 En el recuadro (C) se va un poco más allá y se inserta un gráfico elaborado con base en la información obtenida en campo, esto da una visión mucho más clara de la relación que existe entre las dos variables y con base en lo cual es posible concluir que cuanto más fertilizante se aplique a la planta, mayor longitud del tallo se va a tener. 
+              .col-lg-8
+                img(src="@/assets/curso/images/tema2/img_25.svg").mb-3
+            .row.justify-content-center.align-items-star.p-3
+              .col-lg-4
+                h4.mb-5 Visualización completa del ejemplo
+                p.mb-3 Aquí, observe en detalle los tres pasos mencionados y logre una comprensión amplia del proceso de observación de variables que intervienen en la producción: Recolección Simple (A), Información ordenada (B) y representaciones gráficas (C). 
+              .col-lg-8
+                img(src="@/assets/curso/images/tema2/img_26.svg").mb-3
     
     p.mb-3 Entre las herramientas más empleadas para el análisis de información, se pueden enunciar las siguientes:
 
@@ -826,46 +871,7 @@
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    datosSlyder: [
-      {
-        titulo: 'Suite ganadera',
-        texto:
-          'Permite llevar el inventario ganadero, preñeces, natalidad, mortalidad, pesos, días de celo, fechas de matadero, inseminaciones, vacunaciones, índices de producción..',
-        imagen: require('@/assets/curso/images/tema2/img_15.svg'),
-      },
-      {
-        titulo: 'Sacfa Lite - Fedearroz',
-        texto:
-          'Es un sistema de administración computarizado para fincas arroceras. Permite llevar registro de las actividades propias del cultivo, calcula indicadores y facilita el manejo inventarios y la obtención de la relación costo-beneficio. ',
-        imagen: require('@/assets/curso/images/tema2/img_16.svg'),
-      },
-      {
-        titulo: 'Sifa - Fedearroz',
-        texto:
-          'Es un sistema administrativo útil en el control del proceso de siembra, gestión de insumos, maquinaria, costos e ingresos. Estudia el proceso de fertilización, ajustándolo por zonas y variedad, lo que facilita los cálculos de diagnóstico de absorción nutricional de la planta.',
-        imagen: require('@/assets/curso/images/tema2/img_17.svg'),
-      },
-      {
-        titulo: 'Agro Win',
-        texto:
-          'Es un <i>software</i> que se especializa en el manejo de cultivos perennes y transitorios. Facilita el registro de costos directos e indirectos, permitiendo la obtención de informes de costos totales de producción, entre otras funciones. Actualmente este es el más usado en el sector cafetero, aunque es de aplicación variada. ',
-        imagen: require('@/assets/curso/images/tema2/img_18.svg'),
-      },
-      {
-        titulo: 'El Gran Palmero',
-        texto:
-          '<i>Software</i> especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.',
-        imagen: require('@/assets/curso/images/tema2/img_19.svg'),
-      },
-      {
-        titulo: 'Agri',
-        texto:
-          'Es un <i>software</i> para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.',
-        imagen: require('@/assets/curso/images/tema2/img_20.svg'),
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
