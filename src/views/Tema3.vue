@@ -103,12 +103,12 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-12
           .row.justify-content-center.align-items-stretch.mt-5
-            .col-md-6.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-left")
+            .col-md-8.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-left")
               .tarjeta-numerada__numero
                 .h2
               .row.justify-content-start.align-items-center
                 .col-5.col-lg-5.col-md-4
-                  img(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_9.svg', alt='')
+                  img.mb-3(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_9.svg', alt='')
                 .col-lg-7
                   p.text-white.mb-0 #[b Objetivo general]
                 p.text-white.mt-4 De un área específica de la organización, por ejemplo, mercadeo, finanzas, etc.
@@ -116,12 +116,12 @@
                 .col-auto
                   h5.card-n.mb-0.mt-4
         
-            .col-md-6.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-down")
+            .col-md-8.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-down")
               .tarjeta-numerada__numero
                 .h2
               .row.justify-content-start.align-items-center
                 .col-5.col-lg-5.col-md-4
-                  img(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_10.svg', alt='')
+                  img.mb-3(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_10.svg', alt='')
                 .col-lg-7
                   p.text-white.mb-0 #[b  Objetivo específico 01]         
                 p.text-white.mt-4 Realizar un diagnóstico general de la finca La Fortuna.
@@ -129,31 +129,31 @@
                 .col-auto
                   h5.card-n.mb-0.mt-5 01
 
-            .col-md-6.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-right")
+            .col-md-8.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-right")
               .tarjeta-numerada__numero
              
               .row.justify-content-start.align-items-center
-                .col-5.col-lg-4.col-md-4
-                  img(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_11.svg', alt='')
+                .col-5.col-lg-5.col-md-4
+                  img.mb-3(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_11.svg', alt='')
                 .col-lg-7
                   p.text-white.mb-0 #[b Objetivo específico 02]         
-                p.text-white.mt-5 Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
+                p.text-white.mt-4 Establecer un plan de adquisiciones para la implementación de las actividades de certificación.
               .row.justify-content-end.align-items-end
                 .col-auto
                   h5.card-n.mb-0 02
 
-            .col-md-4.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-right")
+            .col-md-8.col-xl.mb-4.mb-xl-0.tarjeta-numerada.color-primario.p-5.pb-0(data-aos="fade-right")
               .tarjeta-numerada__numero
        
               .row.justify-content-start.align-items-center
                 .col-5.col-lg-5.col-md-4
-                  img(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_12.svg', alt='')
+                  img.mb-3(data-aos="zoom-in")(src='@/assets/curso/images/tema3/ico_12.svg', alt='')
                 .col-lg-7
                   p.text-white.mb-0 #[b Objetivo específico 03]         
                 p.text-white.mt-3 Fortalecer las capacidades del personal vinculado a la finca La Fortuna en lo relacionado con los principios de las BPA. 
               .row.justify-content-end.align-items-end
                 .col-auto
-                  h5.card-n.mb-3 03
+                  h5.card-n.mb-0 03
 
     separador
   
