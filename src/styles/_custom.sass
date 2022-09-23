@@ -344,272 +344,72 @@
 .jumbotron-9
   background-color: #D6D8B8
 
-
-.crd_container
-  position: relative
-  display: flex 
-  flex-direction: column  
-  align-items: center    
-  height: 100%
-  
-  
-  &::before
-    content: ""
-    position: absolute
-    bottom: 0
-    width: 100%
-    height: calc(100% - 60px)
-    border-radius: 25px
-    background-color: #F6F6F6  
-    transition: all 1s cubic-bezier(0.5, 1, 0.89, 1)
-    -webkit-box-shadow: 0px 3px 15px 4px rgba(0,0,0,0.26)
-     box-shadow: 0px 3px 15px 4px rgba(0,0,0,0.26)
-    
-  &:hover
-    .crd_container__body
-      color: black !important
-    &::before
-      background-color: #E2E2E2
-
-  &__body
-    position: relative
-    padding: 0 1.5rem
-
-
-
-.jumbotron-10 
-  position: relative
-  display: flex 
-  flex-direction: column  
-  align-items: center 
-
-
-  &::before
-    content: ""
-    position: absolute
-    bottom: 0
-    width: 100%
-    height: calc(100% - 60px)
-    background-size: contain
+.jumbotron-10
+  background-color: #fff
+  width: 100%
+  @media (max-width: 992px)
     background-repeat: no-repeat
-    background-image: url("../assets/curso/images/tema3/5.svg") 
-  &:hover
-    .crd_container__body
-      h5
-        color: #000 !important
-      p 
-        color: #000 !important
-    &::before
-      background-image: url("../assets/curso/images/tema3/1.svg")    
-  &__body
-    position: relative
-    padding: 0rem
-    text-align: center
-
-  @media (max-width: 412px)
+    margin-left: -15px
+    background-size: cover
+    width: 100% 
+  @media (max-width: 768px)
     background-repeat: no-repeat
-    background-size: 100%
-    height: 750px !important
-    margin-bottom: -250px !important
-
+    margin-left: -15px
+    background-size: cover
+    width: 100% 
   @media (max-width: 576px)
     background-repeat: no-repeat
     background-size: cover
-    height: 750px !important
-
-  @media (max-width: 768px)
-    background-repeat: no-repeat
-    background-size: cover
-    height: 750px !important
-    width: 100% !important
-    margin-bottom: 50px !important
-    font-size: 16px !important
-    text-align: center !important
-
-
-  @media (max-width: 992px)
-    position: relative
-    display: flex 
-    flex-direction: column  
-    align-items: center 
-    padding: 15px !important
-    font-size: 10px
-
-
-  
-.jumbotron-11
-  position: relative
-  display: flex 
-  flex-direction: column  
-  align-items: center 
-
-  &::before
-    content: ""
-    position: absolute
-    bottom: 0
-    width: 100%
-    height: calc(100% - 60px)
-    background-size: contain
-    background-repeat: no-repeat
-    background-image: url("../assets/curso/images/tema3/2.svg") 
-    color: #000
-  &:hover
-    .crd_container__body
-      h5
-        color: #000 !important
-      p 
-        color: #000 !important
-    &::before
-      background-image: url("../assets/curso/images/tema3/1.svg")      
-  &__body
-    position: relative
-    padding: 0rem
-    text-align: center
-
+    width: 100% 
   @media (max-width: 412px)
     background-repeat: no-repeat
-    background-size: 100%
-    height: 750px !important
-    margin-bottom: -250px !important
-
-  @media (max-width: 576px)
-    background-repeat: no-repeat
+    margin-left: -15px
     background-size: cover
-    height: 750px !important
-    margin-top: -200px !important
-
-  @media (max-width: 768px)
+    width: 100% 
+  @media (max-width: 397px)
     background-repeat: no-repeat
+    margin-left: -15px
     background-size: cover
-    height: 750px !important
-    width: 100% !important
-    margin-top: -360px
-    margin-top: -100px !important
-    font-size: 16px !important
-    text-align: center !important
-
-  @media (max-width: 992px)
-    position: relative
-    display: flex 
-    flex-direction: column  
-    align-items: center
-    padding: 15px !important
-    font-size: 10px
+    width: 100% 
 
 
-.jumbotron-12
-  position: relative
-  display: flex 
-  flex-direction: column  
-  align-items: center 
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero
+  background-color: white  
 
-  &::before
-    content: ""
-    position: absolute
-    bottom: 0
-    width: 100%
-    height: calc(100% - 60px)
-    background-size: contain
-    background-repeat: no-repeat
-    background-image: url("../assets/curso/images/tema3/3.svg") 
-    color: #000
-  &:hover
-    .crd_container__body
-      h5
-        color: #000 !important
-      p 
-        color: #000 !important
-    &::before
-      background-image: url("../assets/curso/images/tema3/1.svg")      
-  &__body
-    position: relative
-    padding: 0rem
-    text-align: center
+.tarjeta-numerada.color-primario
+  cursor: pointer
+  border-color: #70707000
+  background-color: #6E2034
+  box-shadow: 5px 5px 11px #7070701c
   
-  @media (max-width: 412px)
-    background-repeat: no-repeat
-    background-size: 100%
-    height: 750px !important
-    margin-bottom: -250px !important
-    
-  @media (max-width: 576px)
-    background-repeat: no-repeat
-    background-size: cover
-    height: 750px !important
-    margin-top: -200px !important
 
-  @media (max-width: 768px)
-    background-repeat: no-repeat
-    background-size: cover
-    height: 750px !important
-    width: 100% !important
-    margin-top: -100px !important
-    font-size: 16px !important
-    text-align: center !important
+.tarjeta-numerada.color-primario:hover
+  cursor: pointer
+  border-color: #70707000
+  background-color: #E2E2E2
+  box-shadow: 0px 5px 1px #7070701c
+  * 
+    color: black !important
+  & h5
+    color: #e4eefb5e !important 
 
-  @media (max-width: 992px)
-    position: relative
-    display: flex 
-    flex-direction: colum
-    padding: 20px !important
-    font-size: 10px
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero 
+  background-color: #fff
 
+.card-n
+  font-size: 80px
+  color: #FFF  
+  opacity: 0.27
+  text-align: end
+  font-weight: bold  
 
-.jumbotron-13
-  position: relative
-  display: flex 
-  flex-direction: column  
-  align-items: center 
+.img-a 
+  display: block
+  margin: auto
 
-  &::before
-    content: ""
-    position: absolute
-    bottom: 0
-    width: 100%
-    height: calc(100% - 60px)
-    background-size: contain
-    background-repeat: no-repeat
-    background-image: url("../assets/curso/images/tema3/4.svg") 
-    color: #000
-  &:hover
-    .crd_container__body
-      h5
-        color: #000 !important
-      p 
-        color: #000 !important
-    &::before
-      background-image: url("../assets/curso/images/tema3/1.svg")      
-  &__body
-    position: relative
-    padding: 0rem
-    text-align: center
-  
-  @media (max-width: 412px)
-    background-repeat: no-repeat
-    background-size: 100%
-    height: 750px !important
-
-  @media (max-width: 576px)
-    background-repeat: no-repeat
-    background-size: cover
-    height: 750px !important
-    margin-top: -200px !important
-
-  @media (max-width: 768px)
-    background-repeat: no-repeat
-    background-size: cover 
-    height: 750px !important
-    width: 100% !important
-    margin-top: -100px !important
-    font-size: 16px !important
-    text-align: center !important
-    
-  @media (max-width: 992px)
-    position: relative
-    display: flex 
-    flex-direction: colum
-    padding: 15px !important
-    font-size: 10px
+.img-t
+  width: auto
+  height: auto 
 
 
 .horizontal-scroll
