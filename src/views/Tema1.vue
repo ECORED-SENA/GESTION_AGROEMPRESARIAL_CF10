@@ -158,7 +158,7 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-angle-right
-                      p <b>Resolución 1555 de 205:</b> busca consolidar la producción de bienes ambientalmente sostenibles e incrementar la oferta de servicios ecológicos competitivos en los mercados nacionales e internacionales. 
+                      p <b>Resolución 1555 de 2005:</b> busca consolidar la producción de bienes ambientalmente sostenibles e incrementar la oferta de servicios ecológicos competitivos en los mercados nacionales e internacionales. 
      
         
           .col-md-4
@@ -180,7 +180,7 @@
         
           .col-md-4
             figure
-              img(src='@/assets/curso/images/tema1/img_11.svg'  alt='')
+              img(src='@/assets/curso/images/tema1/min.svg'  alt='')
       
     .row.justify-content-center.align-items-star
       .col-lg-6.mb-3(data-aos="fade-right") 
@@ -223,7 +223,7 @@
               .col-4
                 img(src='@/assets/curso/images/tema1/ico_10.svg' alt='AvatarTop')
             h4.text-center Disposición de residuos sólidos
-            p.text-center.text-small.mb-1  Resolución 2309 de 1986 – Resolución 541 de 1994 – Conpes 2750 1994 – Decreto 605 1996 – Ley 430 de 1998 – Decreto 1713 de 2002. 
+            p.text-center.text-small.mb-1  Resolución 2309 de 1986 – Resolución 541 de 1994 – CONPES 2750 1994 – Decreto 605 1996 – Ley 430 de 1998 – Decreto 1713 de 2002. 
 
           .tarjeta_white-1.p-3
             .row.justify-content-center.mb-3
@@ -320,7 +320,7 @@
             .col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/images/tema1/ico_13.svg' alt='', style="width:80px; display:block; margin:auto 0;")
             .col-md-10.mb-4.mb-md-0
-              p.mb-0  Es necesario que el predio de inscriba ante el organismo competente, que en el caso de Colombia es el Instituto Colombiano Agropecuario - ICA. Este primer requisito implica obtener información del predio y documentar los procesos productivos que han adelantado allí en los últimos años. 
+              p.mb-0  Es necesario que el predio se inscriba ante el organismo competente, que en el caso de Colombia es el Instituto Colombiano Agropecuario - ICA. Este primer requisito implica obtener información del predio y documentar los procesos productivos que han adelantado allí en los últimos años. 
           .row.justify-content-center.align-items-center(titulo="Instalaciones")
             .col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/images/tema1/ico_14.svg'  alt='', style="width:80px; display:block; margin:auto 0;")
@@ -340,7 +340,7 @@
             .col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/images/tema1/ico_17.svg'  alt='', style="width:80px; display:block; margin:auto 0;")
             .col-md-10.mb-4.mb-md-0
-              p.mb-3  Es imprescindible llevar registros de todas las actividades desarrolladas en la unidad productiva a fin de mantener un control constante sobre los procesos que se llevan a cabo. ipamientos necesarios para satisfacer las demandas de los animales, en el caso de sistemas pecuarios.
+              p.mb-3  Es imprescindible llevar registros de todas las actividades desarrolladas en la unidad productiva a fin de mantener un control constante sobre los procesos que se llevan a cabo.
           .row.justify-content-center.align-items-center(titulo="Buenas prácticas")
             .col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/images/tema1/ico_18.svg'  alt='', style="width:80px; display:block; margin:auto 0;")

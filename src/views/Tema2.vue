@@ -117,9 +117,7 @@
       .col-lg-6.mb-3(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema2/img_7.png'  alt='')
 
-    p.mb-3 A partir de la información depositada en un sistema de trazabilidad de un producto, se identifica la procedencia de la materia prima empleada en su
-
-    p.mb-0 Elaboración, el detalle de la planta donde se fabricó o se procesó, la fecha en la que tuvo lugar su fabricación, el personal que intervino en su elaboración, las novedades que se presentaron durante el proceso de manufactura, quién intervino en su almacenamiento y distribución, y en qué fecha, finalmente, llegó al consumidor.
+    p.mb-3 A partir de la información depositada en un sistema de trazabilidad de un producto, se identifica la procedencia de la materia prima empleada en su elaboración, el detalle de la planta donde se fabricó o se procesó, la fecha en la que tuvo lugar su fabricación, el personal que intervino en su elaboración, las novedades que se presentaron durante el proceso de manufactura, quién intervino en su almacenamiento y distribución, y en qué fecha, finalmente, llegó al consumidor.
 
     .row.justify-content-center.align-items-center.p-2
       .col-lg-4(data-aos="fade-right")
@@ -323,21 +321,21 @@
             .row.justify-content-between.align-items-center.p-3
               .col-lg-4.lg-0
                 h4.mb-5 Agro Win
-                p.mb-3 Es un software que se especializa en el manejo de cultivos perennes y transitorios. Facilita el registro de costos directos e indirectos, permitiendo la obtención de informes de costos totales de producción, entre otras funciones. Actualmente este es el más usado en el sector cafetero, aunque es de aplicación variada.  
+                p.mb-3 Es un <i>software</i> que se especializa en el manejo de cultivos perennes y transitorios. Facilita el registro de costos directos e indirectos, permitiendo la obtención de informes de costos totales de producción, entre otras funciones. Actualmente este es el más usado en el sector cafetero, aunque es de aplicación variada.  
               .col-lg-7.lg-0
                 img(src="@/assets/curso/images/tema2/img_18.svg").mb-3
 
             .row.justify-content-between.align-items-center.p-3
               .col-lg-4.lg-0
                 h4.mb-5 El Gran Palmero
-                p.mb-3 Software especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.
+                p.mb-3 <i>software</i> especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.
               .col-lg-7.lg-0
                 img(src="@/assets/curso/images/tema2/img_19.svg").mb-3
 
             .row.justify-content-between.align-items-center.p-3
               .col-lg-4.lg-0
                 h4.mb-5 Agri
-                p.mb-3 Es un software para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.
+                p.mb-3 Es un <i>software</i>para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.
               .col-lg-7.lg-0
                 img(src="@/assets/curso/images/tema2/img_20.svg").mb-3
 
@@ -448,7 +446,7 @@
 
           .tarjeta.color-tarjeta-slyder-2
             .p-4
-              h4.text-center Phyton
+              h4.text-center Python
               p.text-center Se trata de una herramienta de código abierto y un lenguaje orientado a los objetos y muy fácil de mantener, leer y escribir.
 
         .tarjeta-avatar
@@ -482,13 +480,16 @@
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="Obtención de un panorama amplio")
+            h3 Obtención de un panorama amplio
             p.mb-0 Por medio de las herramientas de análisis de datos se obtiene un panorama general del estado de la empresa agropecuaria y se identifican, entre otras cosas, los aspectos por mejorar, las acciones que se deben realizar y las medidas que se deben adoptar para superar determinadas situaciones que pueden poner en riesgo su productividad y sostenibilidad.
             
           .tarjeta.back-tab.px-5.py-4(titulo="Interpretación de variables y parámetros")
+            h3 Interpretación de variables y parámetros
             p.mb-0 Para que la toma de decisiones se realice de manera consciente y con principio de realidad es necesario que los datos, primero, se sometan a un proceso de interpretación en el que se identifiquen plenamente las variables a medir, los parámetros a estimar, las relaciones entre variables y los factores que inciden en los indicadores que dan cuenta de la eficiencia de los procesos adelantados en la empresa.
            
           
           .tarjeta.back-tab.px-5.py-4(titulo="Selección clara de variables e indicadores")
+            h3 Selección clara de variables e indicadores"
             p.mb-0 En la interpretación de los resultados es necesario tener claridad sobre las variables técnicas que se analizarán y los indicadores que serán objeto de revisión, ya que la información que se obtenga sobre cada uno de estos elementos será el punto de partida para la implementación de las acciones que, finalmente, conducirán al cumplimiento de los objetivos de la empresa. 
     ol.lista-ol--cuadro
       li 

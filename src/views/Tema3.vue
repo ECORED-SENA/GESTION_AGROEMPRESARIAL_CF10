@@ -96,7 +96,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 4.
+          h5 Figura 1.
           span <i>Objetivo general y objetivos específicos en un programa de certificación</i>
     
     .jumbotron-10
