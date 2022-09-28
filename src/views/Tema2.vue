@@ -845,8 +845,8 @@
     
     figure.mb-5
       .video(data-aos="zoom-in-down")
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gTFdH8Y1uZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IdsPMHS54Yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
     p.mb-3 Sobre el diagnóstico de la organización, se debe tener en cuenta:
     
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 

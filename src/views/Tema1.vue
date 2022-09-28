@@ -372,6 +372,41 @@
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Tabla 1
+      span #[em Ejemplo cálculo de costo y gastos fijos para un guía]
+
+    .tabla-a.color-acento-botones.mb-5 
+      table
+        caption(style="font-weight:500;background-color:#F8F8F8;") Nota. Tomada de Ibáñez y Cabrera (2011).
+        thead(style="border:0")
+          tr(style="background-color:#EB6F2D;")
+            th.text-center.text-white(style="font-size:18px;border:0;") Modalidades
+            th.text-center.text-white(style="font-size:18px;border:0;") Categorías
+            th.text-center.text-white(style="font-size:18px;border:0;") Actividades
+        tbody
+          tr(style="background-color:#F8F8F8;")
+            td.p-4.h5.text-center(style="border-left:0;" rowspan="4") Turismo masivo
+          tr(style="background-color:#F8F8F8;")
+            td.p-4 Turismo de sol y playa.
+            td.p-4 Visitas aglomeradas en playas: esquí, paseos en moto y actividades acuáticas en complejos turísticos.
+          tr(style="background-color:#F8F8F8;")
+            td.p-4 Turismo cultural en grandes ciudades.
+            td.p-4 Visitas a sitios históricos en grandes ciudades. #[br] Visitas a eventos musicales, concursos o ferias en grandes ciudades.
+          tr(style="background-color:#F8F8F8;")
+            td.p-4 Turismo a lugares de lujosa infraestructura.
+            td.p-4 Disfrute y visitas a restaurantes lujosos y discotecas y casinos anexos.
+          tr(style="background-color:#F8F8F8;")
+            td.p-4.h5.text-center(style="border-left:0;" rowspan="4") Turismo alternativo
+          tr(style="background-color:#F8F8F8;")
+            td.p-4 Ecoturismo.
+            td.p-4 Talleres de educación ambiental. #[br] Senderismo interpretativo. #[br] Observación sideral. #[br] Rescate de flora y fauna. #[br] Observación de flora y fauna. #[br] Observación de ecosistemas. #[br] Observación de aves. #[br] Observación geológica. #[br] Observación de atractivos naturales.
+          tr(style="background-color:#F8F8F8;")
+            td.p-4 Turismo de aventura.
+            td.p-4 Montañismo. #[br] Rappel. #[br] Cabalgata. #[br] Escalada. #[br] Espeleología #[br] Ciclismo de montaña. #[br] Caminata.
+          tr(style="background-color:#F8F8F8;")
+            td.p-4 Turismo rural.
+            td.p-4 Talleres artesanales. #[br] Etnoturismo.#[br] Ecoarqueología.#[br] Agroturismo.#[br] Preparación y uso de medicina tradicional.#[br] Talleres y disfrute gastronómico.#[br] Fotografía rural.#[br] Aprendizaje de dialectos.#[br] Vivencias místicas.
 
 
 
