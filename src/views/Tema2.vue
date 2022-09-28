@@ -175,7 +175,7 @@
               .col-lg-8
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 1.
-                  span <i>Ejemplo de protocolo especializado</i>
+                  span <i>Ejemplo de encabezado de la lista de chequeo para auditoría de predios rurales</i>
                 img(src="@/assets/curso/images/tema2/img_9.svg").mb-3
             .row.justify-content-center.align-items-star.p-3
               .col-lg-4
