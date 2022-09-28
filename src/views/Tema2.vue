@@ -173,12 +173,18 @@
               .col-lg-4
                 h4.mb-5 Ejemplo de encabezado de la lista de chequeo para auditoría de predios rurales
               .col-lg-8
+                .titulo-sexto.color-acento-contenido.mb-3
+                  h5 Figura 1.
+                  span <i>Ejemplo de protocolo especializado</i>
                 img(src="@/assets/curso/images/tema2/img_9.svg").mb-3
             .row.justify-content-center.align-items-star.p-3
               .col-lg-4
                 h4.mb-5 Ejemplo de cuerpo de lista de chequeo
                 p.mb-3 En el cuerpo de la lista de chequeo, siguiendo con el ejemplo anterior, se observan los diferentes criterios a evaluar y en los cuales se deberá indicar si la unidad productiva cumple o no cumple. En el caso de este formato en particular se agrega una columna en la que se indica si el aspecto evaluado es mayor (My), fundamental (F) o menor (Mn), porque al final del diligenciamiento esto permitirá ponderar los resultados, debido a que existen aspectos que tienen un mayor peso específico que otros.
               .col-lg-8
+                .titulo-sexto.color-acento-contenido.mb-3
+                  h5 Figura 2.
+                  span <i>Ejemplo de cuerpo de lista de chequeo</i>
                 img(src="@/assets/curso/images/tema2/img_10.svg").mb-3
 
             .row.justify-content-center.align-items-star.p-3
@@ -186,6 +192,9 @@
                 h4.mb-5 Ejemplo de lista de chequeo - observaciones
                 p.mb-3 En la parte final de la lista de chequeo se realiza un cálculo inicial de los resultados obtenidos, con lo cual es posible indicar si se cumplió o no con los requisitos establecidos. Igualmente, en esta parte del documento se deja un espacio para observaciones, el que da la posibilidad de registrar eventos o situaciones que se hayan presentado en el ejercicio de captura de información y que, eventualmente, pueden enriquecer el análisis de la información.  
               .col-lg-8
+                .titulo-sexto.color-acento-contenido.mb-3
+                  h5 Figura 3.
+                  span <i>Ejemplo de lista de chequeo - observaciones</i>
                 img(src="@/assets/curso/images/tema2/img_11.svg").mb-3
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
