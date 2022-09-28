@@ -300,7 +300,7 @@
           SlyderA(tipo="b")
             .row.justify-content-between.align-items-center.p-3
               .col-lg-4.lg-0
-                h4.mb-5 Suite ganadera
+                h4.mb-5 <i>Suite</i> ganadera
                 p.mb-3 Permite llevar el inventario ganadero, preñeces, natalidad, mortalidad, pesos, días de celo, fechas de matadero, inseminaciones, vacunaciones, índices de producción.
               .col-lg-7.lg-0
                 img(src="@/assets/curso/images/tema2/img_15.svg").mb-3
@@ -328,14 +328,14 @@
             .row.justify-content-between.align-items-center.p-3
               .col-lg-4.lg-0
                 h4.mb-5 El Gran Palmero
-                p.mb-3 <i>software</i> especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.
+                p.mb-3 <i>Software</i> especializado en el control de las labores propias del cultivo de palma de aceite para hacer más eficientes los procesos que se dan al interior de la plantación.
               .col-lg-7.lg-0
                 img(src="@/assets/curso/images/tema2/img_19.svg").mb-3
 
             .row.justify-content-between.align-items-center.p-3
               .col-lg-4.lg-0
                 h4.mb-5 Agri
-                p.mb-3 Es un <i>software</i>para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.
+                p.mb-3 Es un <i>software</i> para la planificación de actividades, sistematización de procesos y gestión de la información. Mejora la coordinación de las unidades operativas mediante el control eficiente de los recursos.
               .col-lg-7.lg-0
                 img(src="@/assets/curso/images/tema2/img_20.svg").mb-3
 
@@ -489,7 +489,7 @@
            
           
           .tarjeta.back-tab.px-5.py-4(titulo="Selección clara de variables e indicadores")
-            h3 Selección clara de variables e indicadores"
+            h3 Selección clara de variables e indicadores
             p.mb-0 En la interpretación de los resultados es necesario tener claridad sobre las variables técnicas que se analizarán y los indicadores que serán objeto de revisión, ya que la información que se obtenga sobre cada uno de estos elementos será el punto de partida para la implementación de las acciones que, finalmente, conducirán al cumplimiento de los objetivos de la empresa. 
     ol.lista-ol--cuadro
       li 

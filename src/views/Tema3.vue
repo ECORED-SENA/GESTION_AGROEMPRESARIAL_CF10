@@ -397,7 +397,7 @@
     .row.align-items-center.justify-content-center.p-4.mb-5
       .col-lg-8 
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-down")
-          h5 Figura 5
+          h5 Figura 2
           span <i>Principales recursos de las empresas</i>
         img(src='@/assets/curso/images/tema3/fig_2.svg'  alt='')(data-aos="zoom-in-right")
 
