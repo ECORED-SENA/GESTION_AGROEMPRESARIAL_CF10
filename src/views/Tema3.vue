@@ -96,7 +96,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 1.
+          h5 Figura 4.
           span <i>Objetivo general y objetivos específicos en un programa de certificación</i>
     
     .jumbotron-10
@@ -397,7 +397,7 @@
     .row.align-items-center.justify-content-center.p-4.mb-5
       .col-lg-8 
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-down")
-          h5 Figura 2
+          h5 Figura 5
           span <i>Principales recursos de las empresas</i>
         img(src='@/assets/curso/images/tema3/fig_2.svg'  alt='')(data-aos="zoom-in-right")
 
