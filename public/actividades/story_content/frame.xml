@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad_didactica" />
+              <option name="title_text" value="Actividad_didactica_cf10" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -74,6 +74,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1307,7 +1308,7 @@
             <slidelink slideid="_player.6g8RcXIVtvA.5dJg7QfsaCi" displaytext="La certificación Fairtrade es de tipo:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6pgX1xZSymS" displaytext="Las condiciones sanitarias y de inocuidad en la producción de ganado porcino están reguladas por la Resolución del ICA:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5xwlqv81Hdx" displaytext="Es la norma ISO encargada de la seguridad y la salud laboral." expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5vMRJaK2Y1n" displaytext="Hace referencia a los procedimientos que se llevan a cabo dentro y fuera de la unidad productiva para hacer seguimiento todas y cada una de las etapas por las que pasa el producto hasta llegar al consumidor final." expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5vMRJaK2Y1n" displaytext="Hace referencia a los procedimientos que se llevan a cabo dentro y fuera de la unidad productiva para hacer seguimiento a todas y cada una de las etapas por las que pasa el producto hasta llegar al consumidor final." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.63sXm9ZZLRo" displaytext="Son los parámetros que se pueden medir o verificar para evaluar el desempeño de la unidad productiva." expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.5hCXfLz34NP" displaytext="La longitud del tarso es una variable técnica empleada en la industria:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6WULrOlRSXM" displaytext="Son los aspectos que se debe tener en cuenta para el análisis e interpretación de la información relacionada con el funcionamiento de la unidad productiva." expand="false" type="slide" />
